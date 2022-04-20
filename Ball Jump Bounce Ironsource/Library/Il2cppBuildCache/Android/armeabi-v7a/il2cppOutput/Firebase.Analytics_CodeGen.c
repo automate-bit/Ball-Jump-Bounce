@@ -1,0 +1,424 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingApplicationException_mE6EFC4E91E77330ACBBF87145E5F47963283B0FC_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingArgumentException_mD6618BC1C478422E953790D7ABB7F14BDCE7707E_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingArgumentNullException_mA22EFB2A73CAA3677E9C9D5020F826EE9655ACE5_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingArgumentOutOfRangeException_mD0A757F4A2EA5EC17AA0B808CB3FB95D662CA39C_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingArithmeticException_mC978F3343B4AC0EC43129DC253998B6A189D2C8B_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingDivideByZeroException_mC202F30ADB7F0EAE7195BB377999F38FB93705C3_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingIOException_m029D9D30704BC5C45CACC546494E95B9821357E3_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingIndexOutOfRangeException_m7AA24E6B95539605CABCB2A30825E5001BF24F8F_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingInvalidCastException_m752A913BCADFD486DE66661891A559324316B28B_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingInvalidOperationException_mEA4F608DFC759B1D2DFC937360383FDD4B1D1457_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingNullReferenceException_mC1212168D22D5B28A860D2DA37B0019168C7FB7B_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingOutOfMemoryException_mDE3CF7CE1081599ECC40C993B87F50D050AF31D1_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingOverflowException_m08EC1C04FBC76A45FECD4AA553F4CE22C97781F3_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingSystemException_m89E3D7823C11E78045260521F8DDD4FB4D909591_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGStringHelper_CreateString_m020EAC7A934E71E87D503E657E9F79BE782DFA49_RuntimeMethod_var;
+
+
+
+// 0x00000001 System.Void Firebase.Analytics.FirebaseAnalytics::.cctor()
+extern void FirebaseAnalytics__cctor_m8D7B26B272D2390B304F4902A3DDD2793998FD3E (void);
+// 0x00000002 System.String Firebase.Analytics.FirebaseAnalytics::get_EventAdImpression()
+extern void FirebaseAnalytics_get_EventAdImpression_m483CE246407A2B8EE576132B515E67BCA100C51F (void);
+// 0x00000003 System.String Firebase.Analytics.FirebaseAnalytics::get_EventAppOpen()
+extern void FirebaseAnalytics_get_EventAppOpen_m340451F09B336327444865D99C372FCD0D051C0C (void);
+// 0x00000004 System.String Firebase.Analytics.FirebaseAnalytics::get_EventEarnVirtualCurrency()
+extern void FirebaseAnalytics_get_EventEarnVirtualCurrency_m7ACFA21E4E3E15B6D9D391E4B6E30CC5EF59F167 (void);
+// 0x00000005 System.String Firebase.Analytics.FirebaseAnalytics::get_EventLevelEnd()
+extern void FirebaseAnalytics_get_EventLevelEnd_m8C104220F9F49501AC5C69652FB27B8FE67B22AE (void);
+// 0x00000006 System.String Firebase.Analytics.FirebaseAnalytics::get_EventLevelStart()
+extern void FirebaseAnalytics_get_EventLevelStart_mCDD0DD7BE8073C3F80BE9D78321A31FC2C251BD2 (void);
+// 0x00000007 System.String Firebase.Analytics.FirebaseAnalytics::get_EventLevelUp()
+extern void FirebaseAnalytics_get_EventLevelUp_m2974311061F37DA81FAB6FF03BBB5D03EC2D26EB (void);
+// 0x00000008 System.String Firebase.Analytics.FirebaseAnalytics::get_EventPostScore()
+extern void FirebaseAnalytics_get_EventPostScore_m13C8136B4EE934C73CD00241155D91370D509DB0 (void);
+// 0x00000009 System.String Firebase.Analytics.FirebaseAnalytics::get_EventScreenView()
+extern void FirebaseAnalytics_get_EventScreenView_m50866B679884DEEAB92C06F4371A826B2714AF3E (void);
+// 0x0000000A System.String Firebase.Analytics.FirebaseAnalytics::get_EventSignUp()
+extern void FirebaseAnalytics_get_EventSignUp_m541ADBBD2F446823DC0BFD809D3D4FC578CD7663 (void);
+// 0x0000000B System.String Firebase.Analytics.FirebaseAnalytics::get_EventSpendVirtualCurrency()
+extern void FirebaseAnalytics_get_EventSpendVirtualCurrency_mD7DA7EE0799BC8214CB22084A0A754503B7EC287 (void);
+// 0x0000000C System.String Firebase.Analytics.FirebaseAnalytics::get_EventTutorialComplete()
+extern void FirebaseAnalytics_get_EventTutorialComplete_mC300DF6D1147B7CBE2F7E2F4A6BFBBDB23B3684B (void);
+// 0x0000000D System.String Firebase.Analytics.FirebaseAnalytics::get_EventUnlockAchievement()
+extern void FirebaseAnalytics_get_EventUnlockAchievement_mBA9E4AE4C3AB7FD331FBD4F12A723689CE4BD7F1 (void);
+// 0x0000000E System.String Firebase.Analytics.FirebaseAnalytics::get_EventPurchase()
+extern void FirebaseAnalytics_get_EventPurchase_mD7A2256502B019AA0C190DAB5D712948BE24810D (void);
+// 0x0000000F System.String Firebase.Analytics.FirebaseAnalytics::get_ParameterAchievementId()
+extern void FirebaseAnalytics_get_ParameterAchievementId_m45B37190D04802C1CEB1B893405C14DBA0DB250A (void);
+// 0x00000010 System.String Firebase.Analytics.FirebaseAnalytics::get_ParameterItemName()
+extern void FirebaseAnalytics_get_ParameterItemName_m7C42F3C7BE05C671817BFC8E3EE5ADC0A23AD907 (void);
+// 0x00000011 System.String Firebase.Analytics.FirebaseAnalytics::get_ParameterLevel()
+extern void FirebaseAnalytics_get_ParameterLevel_m56F01460429C1E3F1B510E4ED7B4145160E8095A (void);
+// 0x00000012 System.String Firebase.Analytics.FirebaseAnalytics::get_ParameterScore()
+extern void FirebaseAnalytics_get_ParameterScore_mC9388B874BD79EA56C46000EE059AC5F5DD6EE30 (void);
+// 0x00000013 System.String Firebase.Analytics.FirebaseAnalytics::get_ParameterMethod()
+extern void FirebaseAnalytics_get_ParameterMethod_m14817AAD5D817EC9FA75092634990A661EA366C8 (void);
+// 0x00000014 System.String Firebase.Analytics.FirebaseAnalytics::get_ParameterValue()
+extern void FirebaseAnalytics_get_ParameterValue_m0C1D5CCFA44FC6793318EA56F2A592F1CAC8F7C1 (void);
+// 0x00000015 System.String Firebase.Analytics.FirebaseAnalytics::get_ParameterVirtualCurrencyName()
+extern void FirebaseAnalytics_get_ParameterVirtualCurrencyName_m3A40B351AAE1426B354006FF111D07F5A07E862C (void);
+// 0x00000016 System.Void Firebase.Analytics.FirebaseAnalytics::LogEvent(System.String,System.String,System.Int32)
+extern void FirebaseAnalytics_LogEvent_mA9700651E7F981EF062D8FC60C6945D330A0AE76 (void);
+// 0x00000017 System.Void Firebase.Analytics.FirebaseAnalytics::LogEvent(System.String)
+extern void FirebaseAnalytics_LogEvent_m45D8E369D07274A5A827663E4337B3B3AC2995DD (void);
+// 0x00000018 System.Void Firebase.Analytics.FirebaseAnalytics::LogEvent(System.String,Firebase.Analytics.Parameter[])
+extern void FirebaseAnalytics_LogEvent_mFA4A61073354F522A4428125E49977C785117341 (void);
+// 0x00000019 System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE::.cctor()
+extern void FirebaseAnalyticsPINVOKE__cctor_m0BF35BC24D8CC50B4B12D857B295ECB971F97E01 (void);
+// 0x0000001A System.String Firebase.Analytics.FirebaseAnalyticsPINVOKE::kEventAdImpression_get()
+extern void FirebaseAnalyticsPINVOKE_kEventAdImpression_get_m2225C0FE657F487DA5D738B18F619B815D31E7AF (void);
+// 0x0000001B System.String Firebase.Analytics.FirebaseAnalyticsPINVOKE::kEventAppOpen_get()
+extern void FirebaseAnalyticsPINVOKE_kEventAppOpen_get_mBEF82B4FE6EF5A8E6CAB22A73CFA8D6198E7F6D0 (void);
+// 0x0000001C System.String Firebase.Analytics.FirebaseAnalyticsPINVOKE::kEventEarnVirtualCurrency_get()
+extern void FirebaseAnalyticsPINVOKE_kEventEarnVirtualCurrency_get_mF0290C1C479CA2628F4F9B160CC8953229297B5D (void);
+// 0x0000001D System.String Firebase.Analytics.FirebaseAnalyticsPINVOKE::kEventLevelEnd_get()
+extern void FirebaseAnalyticsPINVOKE_kEventLevelEnd_get_mFEBF0BBBEAD0FF2132FA36E2FACD8D2A54951D0F (void);
+// 0x0000001E System.String Firebase.Analytics.FirebaseAnalyticsPINVOKE::kEventLevelStart_get()
+extern void FirebaseAnalyticsPINVOKE_kEventLevelStart_get_m8BB0047EC4A10C091B6E63DEC9ACDB428D3BB75F (void);
+// 0x0000001F System.String Firebase.Analytics.FirebaseAnalyticsPINVOKE::kEventLevelUp_get()
+extern void FirebaseAnalyticsPINVOKE_kEventLevelUp_get_m64254DB6F2C28C985FB5F71F4E0ED49585556B96 (void);
+// 0x00000020 System.String Firebase.Analytics.FirebaseAnalyticsPINVOKE::kEventPostScore_get()
+extern void FirebaseAnalyticsPINVOKE_kEventPostScore_get_m4A56A4A12B456AEA3AA0724452473090D5E01F09 (void);
+// 0x00000021 System.String Firebase.Analytics.FirebaseAnalyticsPINVOKE::kEventScreenView_get()
+extern void FirebaseAnalyticsPINVOKE_kEventScreenView_get_m924AB9534FFA00F3456F1A477935F5D05B69BC2E (void);
+// 0x00000022 System.String Firebase.Analytics.FirebaseAnalyticsPINVOKE::kEventSignUp_get()
+extern void FirebaseAnalyticsPINVOKE_kEventSignUp_get_m5354D2A99A7244C73F138646EDB574320FBFEAC7 (void);
+// 0x00000023 System.String Firebase.Analytics.FirebaseAnalyticsPINVOKE::kEventSpendVirtualCurrency_get()
+extern void FirebaseAnalyticsPINVOKE_kEventSpendVirtualCurrency_get_m8360D9F1E5DF57FD995BC7D84A71D78090739747 (void);
+// 0x00000024 System.String Firebase.Analytics.FirebaseAnalyticsPINVOKE::kEventTutorialComplete_get()
+extern void FirebaseAnalyticsPINVOKE_kEventTutorialComplete_get_m990C946D17000BE943D8C1E607895C75F1AE559B (void);
+// 0x00000025 System.String Firebase.Analytics.FirebaseAnalyticsPINVOKE::kEventUnlockAchievement_get()
+extern void FirebaseAnalyticsPINVOKE_kEventUnlockAchievement_get_mD866BCC08970A2CF92B91BF6B7875713F73FD856 (void);
+// 0x00000026 System.String Firebase.Analytics.FirebaseAnalyticsPINVOKE::kEventPurchase_get()
+extern void FirebaseAnalyticsPINVOKE_kEventPurchase_get_mD918EEC5F965857A49CBE9C9BFE4BECDB765F65B (void);
+// 0x00000027 System.String Firebase.Analytics.FirebaseAnalyticsPINVOKE::kParameterAchievementId_get()
+extern void FirebaseAnalyticsPINVOKE_kParameterAchievementId_get_mC287110AEB2031233E15E374F8B17AB6ECAC8108 (void);
+// 0x00000028 System.String Firebase.Analytics.FirebaseAnalyticsPINVOKE::kParameterItemName_get()
+extern void FirebaseAnalyticsPINVOKE_kParameterItemName_get_mC9EDD837EE014A2F2BAF3EBDFE7883F62C32D65D (void);
+// 0x00000029 System.String Firebase.Analytics.FirebaseAnalyticsPINVOKE::kParameterLevel_get()
+extern void FirebaseAnalyticsPINVOKE_kParameterLevel_get_m5DBC248F46D21BD488BD470BC9274405F3F317D1 (void);
+// 0x0000002A System.String Firebase.Analytics.FirebaseAnalyticsPINVOKE::kParameterScore_get()
+extern void FirebaseAnalyticsPINVOKE_kParameterScore_get_mAED3E653CA4F7E916EA64DF8E1414EE49B854E1F (void);
+// 0x0000002B System.String Firebase.Analytics.FirebaseAnalyticsPINVOKE::kParameterMethod_get()
+extern void FirebaseAnalyticsPINVOKE_kParameterMethod_get_mF8C06B9DE8A502B1360E31FDE80F6841F78E4E5B (void);
+// 0x0000002C System.String Firebase.Analytics.FirebaseAnalyticsPINVOKE::kParameterValue_get()
+extern void FirebaseAnalyticsPINVOKE_kParameterValue_get_mF3A1177CAC70C3589FA4574250A49B7457C2AD5D (void);
+// 0x0000002D System.String Firebase.Analytics.FirebaseAnalyticsPINVOKE::kParameterVirtualCurrencyName_get()
+extern void FirebaseAnalyticsPINVOKE_kParameterVirtualCurrencyName_get_mE187857DD7E9D1C10476DF93EAB848E37A872F5F (void);
+// 0x0000002E System.IntPtr Firebase.Analytics.FirebaseAnalyticsPINVOKE::new_Parameter__SWIG_0(System.String,System.String)
+extern void FirebaseAnalyticsPINVOKE_new_Parameter__SWIG_0_mB66BB732CCDD1BC8BFE55F32AB0A9FCEF69DF565 (void);
+// 0x0000002F System.IntPtr Firebase.Analytics.FirebaseAnalyticsPINVOKE::new_Parameter__SWIG_1(System.String,System.Int64)
+extern void FirebaseAnalyticsPINVOKE_new_Parameter__SWIG_1_m4D363CDA86BE9FFD5DEE802C15195BE13DE22C13 (void);
+// 0x00000030 System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE::delete_Parameter(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseAnalyticsPINVOKE_delete_Parameter_mD47CE331F483F157B36F093111F055342212D819 (void);
+// 0x00000031 System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE::LogEvent__SWIG_3(System.String,System.String,System.Int32)
+extern void FirebaseAnalyticsPINVOKE_LogEvent__SWIG_3_m854A56F6F13DCE8759347016414E655DF71779B8 (void);
+// 0x00000032 System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE::LogEvent__SWIG_4(System.String)
+extern void FirebaseAnalyticsPINVOKE_LogEvent__SWIG_4_m713839E51D6ED2EDDC8C7896CEB73002AB3B9E2D (void);
+// 0x00000033 System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE::LogEvent__SWIG_5(System.String,System.IntPtr,System.Int32)
+extern void FirebaseAnalyticsPINVOKE_LogEvent__SWIG_5_mB1BA5ADA36BE34A51AD359AA95489BCBA6375513 (void);
+// 0x00000034 System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper::.cctor()
+extern void SWIGExceptionHelper__cctor_mAB0453DD8BAF915956C03DA10B82A58C95AAC515 (void);
+// 0x00000035 System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper::.ctor()
+extern void SWIGExceptionHelper__ctor_m50FD42139A5BAFF7952A182A657152975ED26222 (void);
+// 0x00000036 System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper::SWIGRegisterExceptionCallbacks_FirebaseAnalytics(Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper/ExceptionDelegate)
+extern void SWIGExceptionHelper_SWIGRegisterExceptionCallbacks_FirebaseAnalytics_m371190772A110D0C29EE3EEA5ABE0F9B7E25F4C4 (void);
+// 0x00000037 System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper::SWIGRegisterExceptionCallbacksArgument_FirebaseAnalytics(Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper/ExceptionArgumentDelegate,Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper/ExceptionArgumentDelegate,Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper/ExceptionArgumentDelegate)
+extern void SWIGExceptionHelper_SWIGRegisterExceptionCallbacksArgument_FirebaseAnalytics_m63D7BC8E6CF88B21534DAA1CA2F5FC9F2CA614D6 (void);
+// 0x00000038 System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper::SetPendingApplicationException(System.String)
+extern void SWIGExceptionHelper_SetPendingApplicationException_mE6EFC4E91E77330ACBBF87145E5F47963283B0FC (void);
+// 0x00000039 System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper::SetPendingArithmeticException(System.String)
+extern void SWIGExceptionHelper_SetPendingArithmeticException_mC978F3343B4AC0EC43129DC253998B6A189D2C8B (void);
+// 0x0000003A System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper::SetPendingDivideByZeroException(System.String)
+extern void SWIGExceptionHelper_SetPendingDivideByZeroException_mC202F30ADB7F0EAE7195BB377999F38FB93705C3 (void);
+// 0x0000003B System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper::SetPendingIndexOutOfRangeException(System.String)
+extern void SWIGExceptionHelper_SetPendingIndexOutOfRangeException_m7AA24E6B95539605CABCB2A30825E5001BF24F8F (void);
+// 0x0000003C System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper::SetPendingInvalidCastException(System.String)
+extern void SWIGExceptionHelper_SetPendingInvalidCastException_m752A913BCADFD486DE66661891A559324316B28B (void);
+// 0x0000003D System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper::SetPendingInvalidOperationException(System.String)
+extern void SWIGExceptionHelper_SetPendingInvalidOperationException_mEA4F608DFC759B1D2DFC937360383FDD4B1D1457 (void);
+// 0x0000003E System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper::SetPendingIOException(System.String)
+extern void SWIGExceptionHelper_SetPendingIOException_m029D9D30704BC5C45CACC546494E95B9821357E3 (void);
+// 0x0000003F System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper::SetPendingNullReferenceException(System.String)
+extern void SWIGExceptionHelper_SetPendingNullReferenceException_mC1212168D22D5B28A860D2DA37B0019168C7FB7B (void);
+// 0x00000040 System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper::SetPendingOutOfMemoryException(System.String)
+extern void SWIGExceptionHelper_SetPendingOutOfMemoryException_mDE3CF7CE1081599ECC40C993B87F50D050AF31D1 (void);
+// 0x00000041 System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper::SetPendingOverflowException(System.String)
+extern void SWIGExceptionHelper_SetPendingOverflowException_m08EC1C04FBC76A45FECD4AA553F4CE22C97781F3 (void);
+// 0x00000042 System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper::SetPendingSystemException(System.String)
+extern void SWIGExceptionHelper_SetPendingSystemException_m89E3D7823C11E78045260521F8DDD4FB4D909591 (void);
+// 0x00000043 System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper::SetPendingArgumentException(System.String,System.String)
+extern void SWIGExceptionHelper_SetPendingArgumentException_mD6618BC1C478422E953790D7ABB7F14BDCE7707E (void);
+// 0x00000044 System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper::SetPendingArgumentNullException(System.String,System.String)
+extern void SWIGExceptionHelper_SetPendingArgumentNullException_mA22EFB2A73CAA3677E9C9D5020F826EE9655ACE5 (void);
+// 0x00000045 System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper::SetPendingArgumentOutOfRangeException(System.String,System.String)
+extern void SWIGExceptionHelper_SetPendingArgumentOutOfRangeException_mD0A757F4A2EA5EC17AA0B808CB3FB95D662CA39C (void);
+// 0x00000046 System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper/ExceptionDelegate::.ctor(System.Object,System.IntPtr)
+extern void ExceptionDelegate__ctor_m4B71C9F1BF86DCAD8DD8D5DEA3729603E5F54821 (void);
+// 0x00000047 System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper/ExceptionDelegate::Invoke(System.String)
+extern void ExceptionDelegate_Invoke_mA69E80019FD108AFCDEF2D71EC8CB1DD3AF0CB44 (void);
+// 0x00000048 System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper/ExceptionArgumentDelegate::.ctor(System.Object,System.IntPtr)
+extern void ExceptionArgumentDelegate__ctor_m57BECABDE331763BF7C468E9ABC776CA25E22366 (void);
+// 0x00000049 System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGExceptionHelper/ExceptionArgumentDelegate::Invoke(System.String,System.String)
+extern void ExceptionArgumentDelegate_Invoke_mE215D1E29E87B1189DFE22CD7C01A3D69FD7FCA4 (void);
+// 0x0000004A System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGPendingException::Set(System.Exception)
+extern void SWIGPendingException_Set_m8D55C78ED468E3E81EF19126A07177B47ED89A28 (void);
+// 0x0000004B System.Exception Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGPendingException::Retrieve()
+extern void SWIGPendingException_Retrieve_mB4BC862F92A445110CB9C9D028EA50DCB3ED3483 (void);
+// 0x0000004C System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGStringHelper::.cctor()
+extern void SWIGStringHelper__cctor_m193A9BA07BCE3C5F9CE07EF8192B839917DF55EC (void);
+// 0x0000004D System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGStringHelper::.ctor()
+extern void SWIGStringHelper__ctor_mE5DEADDEE1EFA02F78EFD11298A3335B30A80A7B (void);
+// 0x0000004E System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGStringHelper::SWIGRegisterStringCallback_FirebaseAnalytics(Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGStringHelper/SWIGStringDelegate)
+extern void SWIGStringHelper_SWIGRegisterStringCallback_FirebaseAnalytics_m22BD39B5A4CED2C36A5A7746CB3549CEE47ABCC0 (void);
+// 0x0000004F System.String Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGStringHelper::CreateString(System.String)
+extern void SWIGStringHelper_CreateString_m020EAC7A934E71E87D503E657E9F79BE782DFA49 (void);
+// 0x00000050 System.Void Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGStringHelper/SWIGStringDelegate::.ctor(System.Object,System.IntPtr)
+extern void SWIGStringDelegate__ctor_mF7C2FD9ED383D76E632B2C2A0FF5DC7C8D87B1C3 (void);
+// 0x00000051 System.String Firebase.Analytics.FirebaseAnalyticsPINVOKE/SWIGStringHelper/SWIGStringDelegate::Invoke(System.String)
+extern void SWIGStringDelegate_Invoke_m327548126C7CCA52D0FE0770A30275B4D566F2B0 (void);
+// 0x00000052 System.Void Firebase.Analytics.Parameter::.ctor(System.IntPtr,System.Boolean)
+extern void Parameter__ctor_m3CDC4295BA2D6F15FF9AE2CD03850BF2A5A88DB6 (void);
+// 0x00000053 System.Void Firebase.Analytics.Parameter::.ctor(System.String,System.String)
+extern void Parameter__ctor_m9541D5BA8AE5E08FCBD75820BB23366129956F67 (void);
+// 0x00000054 System.Void Firebase.Analytics.Parameter::.ctor(System.String,System.Int64)
+extern void Parameter__ctor_mE4A7D7525B730731814F720AE9B0A195589EBFD8 (void);
+// 0x00000055 System.Runtime.InteropServices.HandleRef Firebase.Analytics.Parameter::getCPtr(Firebase.Analytics.Parameter)
+extern void Parameter_getCPtr_m9F8C33F11106EB421F802F2646BD27C86FB0002A (void);
+// 0x00000056 System.Void Firebase.Analytics.Parameter::Finalize()
+extern void Parameter_Finalize_m98F00E8E776CFADBAFC80468BBE2410E58D1F352 (void);
+// 0x00000057 System.Void Firebase.Analytics.Parameter::Dispose()
+extern void Parameter_Dispose_m5BFFD8280DEECC18F102865826A7DB414E7D539C (void);
+static Il2CppMethodPointer s_methodPointers[87] = 
+{
+	FirebaseAnalytics__cctor_m8D7B26B272D2390B304F4902A3DDD2793998FD3E,
+	FirebaseAnalytics_get_EventAdImpression_m483CE246407A2B8EE576132B515E67BCA100C51F,
+	FirebaseAnalytics_get_EventAppOpen_m340451F09B336327444865D99C372FCD0D051C0C,
+	FirebaseAnalytics_get_EventEarnVirtualCurrency_m7ACFA21E4E3E15B6D9D391E4B6E30CC5EF59F167,
+	FirebaseAnalytics_get_EventLevelEnd_m8C104220F9F49501AC5C69652FB27B8FE67B22AE,
+	FirebaseAnalytics_get_EventLevelStart_mCDD0DD7BE8073C3F80BE9D78321A31FC2C251BD2,
+	FirebaseAnalytics_get_EventLevelUp_m2974311061F37DA81FAB6FF03BBB5D03EC2D26EB,
+	FirebaseAnalytics_get_EventPostScore_m13C8136B4EE934C73CD00241155D91370D509DB0,
+	FirebaseAnalytics_get_EventScreenView_m50866B679884DEEAB92C06F4371A826B2714AF3E,
+	FirebaseAnalytics_get_EventSignUp_m541ADBBD2F446823DC0BFD809D3D4FC578CD7663,
+	FirebaseAnalytics_get_EventSpendVirtualCurrency_mD7DA7EE0799BC8214CB22084A0A754503B7EC287,
+	FirebaseAnalytics_get_EventTutorialComplete_mC300DF6D1147B7CBE2F7E2F4A6BFBBDB23B3684B,
+	FirebaseAnalytics_get_EventUnlockAchievement_mBA9E4AE4C3AB7FD331FBD4F12A723689CE4BD7F1,
+	FirebaseAnalytics_get_EventPurchase_mD7A2256502B019AA0C190DAB5D712948BE24810D,
+	FirebaseAnalytics_get_ParameterAchievementId_m45B37190D04802C1CEB1B893405C14DBA0DB250A,
+	FirebaseAnalytics_get_ParameterItemName_m7C42F3C7BE05C671817BFC8E3EE5ADC0A23AD907,
+	FirebaseAnalytics_get_ParameterLevel_m56F01460429C1E3F1B510E4ED7B4145160E8095A,
+	FirebaseAnalytics_get_ParameterScore_mC9388B874BD79EA56C46000EE059AC5F5DD6EE30,
+	FirebaseAnalytics_get_ParameterMethod_m14817AAD5D817EC9FA75092634990A661EA366C8,
+	FirebaseAnalytics_get_ParameterValue_m0C1D5CCFA44FC6793318EA56F2A592F1CAC8F7C1,
+	FirebaseAnalytics_get_ParameterVirtualCurrencyName_m3A40B351AAE1426B354006FF111D07F5A07E862C,
+	FirebaseAnalytics_LogEvent_mA9700651E7F981EF062D8FC60C6945D330A0AE76,
+	FirebaseAnalytics_LogEvent_m45D8E369D07274A5A827663E4337B3B3AC2995DD,
+	FirebaseAnalytics_LogEvent_mFA4A61073354F522A4428125E49977C785117341,
+	FirebaseAnalyticsPINVOKE__cctor_m0BF35BC24D8CC50B4B12D857B295ECB971F97E01,
+	FirebaseAnalyticsPINVOKE_kEventAdImpression_get_m2225C0FE657F487DA5D738B18F619B815D31E7AF,
+	FirebaseAnalyticsPINVOKE_kEventAppOpen_get_mBEF82B4FE6EF5A8E6CAB22A73CFA8D6198E7F6D0,
+	FirebaseAnalyticsPINVOKE_kEventEarnVirtualCurrency_get_mF0290C1C479CA2628F4F9B160CC8953229297B5D,
+	FirebaseAnalyticsPINVOKE_kEventLevelEnd_get_mFEBF0BBBEAD0FF2132FA36E2FACD8D2A54951D0F,
+	FirebaseAnalyticsPINVOKE_kEventLevelStart_get_m8BB0047EC4A10C091B6E63DEC9ACDB428D3BB75F,
+	FirebaseAnalyticsPINVOKE_kEventLevelUp_get_m64254DB6F2C28C985FB5F71F4E0ED49585556B96,
+	FirebaseAnalyticsPINVOKE_kEventPostScore_get_m4A56A4A12B456AEA3AA0724452473090D5E01F09,
+	FirebaseAnalyticsPINVOKE_kEventScreenView_get_m924AB9534FFA00F3456F1A477935F5D05B69BC2E,
+	FirebaseAnalyticsPINVOKE_kEventSignUp_get_m5354D2A99A7244C73F138646EDB574320FBFEAC7,
+	FirebaseAnalyticsPINVOKE_kEventSpendVirtualCurrency_get_m8360D9F1E5DF57FD995BC7D84A71D78090739747,
+	FirebaseAnalyticsPINVOKE_kEventTutorialComplete_get_m990C946D17000BE943D8C1E607895C75F1AE559B,
+	FirebaseAnalyticsPINVOKE_kEventUnlockAchievement_get_mD866BCC08970A2CF92B91BF6B7875713F73FD856,
+	FirebaseAnalyticsPINVOKE_kEventPurchase_get_mD918EEC5F965857A49CBE9C9BFE4BECDB765F65B,
+	FirebaseAnalyticsPINVOKE_kParameterAchievementId_get_mC287110AEB2031233E15E374F8B17AB6ECAC8108,
+	FirebaseAnalyticsPINVOKE_kParameterItemName_get_mC9EDD837EE014A2F2BAF3EBDFE7883F62C32D65D,
+	FirebaseAnalyticsPINVOKE_kParameterLevel_get_m5DBC248F46D21BD488BD470BC9274405F3F317D1,
+	FirebaseAnalyticsPINVOKE_kParameterScore_get_mAED3E653CA4F7E916EA64DF8E1414EE49B854E1F,
+	FirebaseAnalyticsPINVOKE_kParameterMethod_get_mF8C06B9DE8A502B1360E31FDE80F6841F78E4E5B,
+	FirebaseAnalyticsPINVOKE_kParameterValue_get_mF3A1177CAC70C3589FA4574250A49B7457C2AD5D,
+	FirebaseAnalyticsPINVOKE_kParameterVirtualCurrencyName_get_mE187857DD7E9D1C10476DF93EAB848E37A872F5F,
+	FirebaseAnalyticsPINVOKE_new_Parameter__SWIG_0_mB66BB732CCDD1BC8BFE55F32AB0A9FCEF69DF565,
+	FirebaseAnalyticsPINVOKE_new_Parameter__SWIG_1_m4D363CDA86BE9FFD5DEE802C15195BE13DE22C13,
+	FirebaseAnalyticsPINVOKE_delete_Parameter_mD47CE331F483F157B36F093111F055342212D819,
+	FirebaseAnalyticsPINVOKE_LogEvent__SWIG_3_m854A56F6F13DCE8759347016414E655DF71779B8,
+	FirebaseAnalyticsPINVOKE_LogEvent__SWIG_4_m713839E51D6ED2EDDC8C7896CEB73002AB3B9E2D,
+	FirebaseAnalyticsPINVOKE_LogEvent__SWIG_5_mB1BA5ADA36BE34A51AD359AA95489BCBA6375513,
+	SWIGExceptionHelper__cctor_mAB0453DD8BAF915956C03DA10B82A58C95AAC515,
+	SWIGExceptionHelper__ctor_m50FD42139A5BAFF7952A182A657152975ED26222,
+	SWIGExceptionHelper_SWIGRegisterExceptionCallbacks_FirebaseAnalytics_m371190772A110D0C29EE3EEA5ABE0F9B7E25F4C4,
+	SWIGExceptionHelper_SWIGRegisterExceptionCallbacksArgument_FirebaseAnalytics_m63D7BC8E6CF88B21534DAA1CA2F5FC9F2CA614D6,
+	SWIGExceptionHelper_SetPendingApplicationException_mE6EFC4E91E77330ACBBF87145E5F47963283B0FC,
+	SWIGExceptionHelper_SetPendingArithmeticException_mC978F3343B4AC0EC43129DC253998B6A189D2C8B,
+	SWIGExceptionHelper_SetPendingDivideByZeroException_mC202F30ADB7F0EAE7195BB377999F38FB93705C3,
+	SWIGExceptionHelper_SetPendingIndexOutOfRangeException_m7AA24E6B95539605CABCB2A30825E5001BF24F8F,
+	SWIGExceptionHelper_SetPendingInvalidCastException_m752A913BCADFD486DE66661891A559324316B28B,
+	SWIGExceptionHelper_SetPendingInvalidOperationException_mEA4F608DFC759B1D2DFC937360383FDD4B1D1457,
+	SWIGExceptionHelper_SetPendingIOException_m029D9D30704BC5C45CACC546494E95B9821357E3,
+	SWIGExceptionHelper_SetPendingNullReferenceException_mC1212168D22D5B28A860D2DA37B0019168C7FB7B,
+	SWIGExceptionHelper_SetPendingOutOfMemoryException_mDE3CF7CE1081599ECC40C993B87F50D050AF31D1,
+	SWIGExceptionHelper_SetPendingOverflowException_m08EC1C04FBC76A45FECD4AA553F4CE22C97781F3,
+	SWIGExceptionHelper_SetPendingSystemException_m89E3D7823C11E78045260521F8DDD4FB4D909591,
+	SWIGExceptionHelper_SetPendingArgumentException_mD6618BC1C478422E953790D7ABB7F14BDCE7707E,
+	SWIGExceptionHelper_SetPendingArgumentNullException_mA22EFB2A73CAA3677E9C9D5020F826EE9655ACE5,
+	SWIGExceptionHelper_SetPendingArgumentOutOfRangeException_mD0A757F4A2EA5EC17AA0B808CB3FB95D662CA39C,
+	ExceptionDelegate__ctor_m4B71C9F1BF86DCAD8DD8D5DEA3729603E5F54821,
+	ExceptionDelegate_Invoke_mA69E80019FD108AFCDEF2D71EC8CB1DD3AF0CB44,
+	ExceptionArgumentDelegate__ctor_m57BECABDE331763BF7C468E9ABC776CA25E22366,
+	ExceptionArgumentDelegate_Invoke_mE215D1E29E87B1189DFE22CD7C01A3D69FD7FCA4,
+	SWIGPendingException_Set_m8D55C78ED468E3E81EF19126A07177B47ED89A28,
+	SWIGPendingException_Retrieve_mB4BC862F92A445110CB9C9D028EA50DCB3ED3483,
+	SWIGStringHelper__cctor_m193A9BA07BCE3C5F9CE07EF8192B839917DF55EC,
+	SWIGStringHelper__ctor_mE5DEADDEE1EFA02F78EFD11298A3335B30A80A7B,
+	SWIGStringHelper_SWIGRegisterStringCallback_FirebaseAnalytics_m22BD39B5A4CED2C36A5A7746CB3549CEE47ABCC0,
+	SWIGStringHelper_CreateString_m020EAC7A934E71E87D503E657E9F79BE782DFA49,
+	SWIGStringDelegate__ctor_mF7C2FD9ED383D76E632B2C2A0FF5DC7C8D87B1C3,
+	SWIGStringDelegate_Invoke_m327548126C7CCA52D0FE0770A30275B4D566F2B0,
+	Parameter__ctor_m3CDC4295BA2D6F15FF9AE2CD03850BF2A5A88DB6,
+	Parameter__ctor_m9541D5BA8AE5E08FCBD75820BB23366129956F67,
+	Parameter__ctor_mE4A7D7525B730731814F720AE9B0A195589EBFD8,
+	Parameter_getCPtr_m9F8C33F11106EB421F802F2646BD27C86FB0002A,
+	Parameter_Finalize_m98F00E8E776CFADBAFC80468BBE2410E58D1F352,
+	Parameter_Dispose_m5BFFD8280DEECC18F102865826A7DB414E7D539C,
+};
+static const int32_t s_InvokerIndices[87] = 
+{
+	4748,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	3933,
+	4675,
+	4352,
+	4748,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4720,
+	4070,
+	4068,
+	4670,
+	3933,
+	4675,
+	3928,
+	4748,
+	2958,
+	3031,
+	3935,
+	4675,
+	4675,
+	4675,
+	4675,
+	4675,
+	4675,
+	4675,
+	4675,
+	4675,
+	4675,
+	4675,
+	4352,
+	4352,
+	4352,
+	1349,
+	2394,
+	1349,
+	1352,
+	4675,
+	4720,
+	4748,
+	2958,
+	4675,
+	4568,
+	1349,
+	1804,
+	1329,
+	1352,
+	1346,
+	4482,
+	2958,
+	2958,
+};
+static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[15] = 
+{
+	{ 0x06000038, 33,  (void**)&SWIGExceptionHelper_SetPendingApplicationException_mE6EFC4E91E77330ACBBF87145E5F47963283B0FC_RuntimeMethod_var, 0 },
+	{ 0x06000039, 37,  (void**)&SWIGExceptionHelper_SetPendingArithmeticException_mC978F3343B4AC0EC43129DC253998B6A189D2C8B_RuntimeMethod_var, 0 },
+	{ 0x0600003A, 38,  (void**)&SWIGExceptionHelper_SetPendingDivideByZeroException_mC202F30ADB7F0EAE7195BB377999F38FB93705C3_RuntimeMethod_var, 0 },
+	{ 0x0600003B, 40,  (void**)&SWIGExceptionHelper_SetPendingIndexOutOfRangeException_m7AA24E6B95539605CABCB2A30825E5001BF24F8F_RuntimeMethod_var, 0 },
+	{ 0x0600003C, 41,  (void**)&SWIGExceptionHelper_SetPendingInvalidCastException_m752A913BCADFD486DE66661891A559324316B28B_RuntimeMethod_var, 0 },
+	{ 0x0600003D, 42,  (void**)&SWIGExceptionHelper_SetPendingInvalidOperationException_mEA4F608DFC759B1D2DFC937360383FDD4B1D1457_RuntimeMethod_var, 0 },
+	{ 0x0600003E, 39,  (void**)&SWIGExceptionHelper_SetPendingIOException_m029D9D30704BC5C45CACC546494E95B9821357E3_RuntimeMethod_var, 0 },
+	{ 0x0600003F, 43,  (void**)&SWIGExceptionHelper_SetPendingNullReferenceException_mC1212168D22D5B28A860D2DA37B0019168C7FB7B_RuntimeMethod_var, 0 },
+	{ 0x06000040, 44,  (void**)&SWIGExceptionHelper_SetPendingOutOfMemoryException_mDE3CF7CE1081599ECC40C993B87F50D050AF31D1_RuntimeMethod_var, 0 },
+	{ 0x06000041, 45,  (void**)&SWIGExceptionHelper_SetPendingOverflowException_m08EC1C04FBC76A45FECD4AA553F4CE22C97781F3_RuntimeMethod_var, 0 },
+	{ 0x06000042, 46,  (void**)&SWIGExceptionHelper_SetPendingSystemException_m89E3D7823C11E78045260521F8DDD4FB4D909591_RuntimeMethod_var, 0 },
+	{ 0x06000043, 34,  (void**)&SWIGExceptionHelper_SetPendingArgumentException_mD6618BC1C478422E953790D7ABB7F14BDCE7707E_RuntimeMethod_var, 0 },
+	{ 0x06000044, 35,  (void**)&SWIGExceptionHelper_SetPendingArgumentNullException_mA22EFB2A73CAA3677E9C9D5020F826EE9655ACE5_RuntimeMethod_var, 0 },
+	{ 0x06000045, 36,  (void**)&SWIGExceptionHelper_SetPendingArgumentOutOfRangeException_mD0A757F4A2EA5EC17AA0B808CB3FB95D662CA39C_RuntimeMethod_var, 0 },
+	{ 0x0600004F, 47,  (void**)&SWIGStringHelper_CreateString_m020EAC7A934E71E87D503E657E9F79BE782DFA49_RuntimeMethod_var, 0 },
+};
+extern const CustomAttributesCacheGenerator g_Firebase_Analytics_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Firebase_Analytics_CodeGenModule;
+const Il2CppCodeGenModule g_Firebase_Analytics_CodeGenModule = 
+{
+	"Firebase.Analytics.dll",
+	87,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	15,
+	s_reversePInvokeIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	g_Firebase_Analytics_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

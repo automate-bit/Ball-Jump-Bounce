@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "253393835089",
+    "project_id": "ball-jump-d135a",
+    "storage_bucket": "ball-jump-d135a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253393835089:android:79a1507005abdcaa235470",
+        "android_client_info": {
+          "package_name": "com.PlayRusumePvtltd.BallJumpBounce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253393835089-nt6ipnl1nabmg3a9hblrgpa2d5d1os0n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa0zC3agL3c5UW9_zk6s397F-1A5p-k6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253393835089-nt6ipnl1nabmg3a9hblrgpa2d5d1os0n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

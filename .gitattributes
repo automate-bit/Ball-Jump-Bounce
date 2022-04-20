@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+.so filter=lfs diff=lfs merge=lfs -text
+.il2cpp.so filter=lfs diff=lfs merge=lfs -text
+dgb.so filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text

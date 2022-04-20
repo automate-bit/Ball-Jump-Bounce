@@ -1,0 +1,976 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingApplicationException_mEC7313B11978919435D2C5782ACBB53BC61F2B7F_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingArgumentException_mC7CF1B06BEB5318E551DB4432C3FDB52C3052396_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingArgumentNullException_m39AB5098F718D463A691C6166E9173B78051604C_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingArgumentOutOfRangeException_m587744C56232F49FFBB6309983F794C5732424F3_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingArithmeticException_m2D4137BFB04B4459312D923C4DB399A22472BD8B_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingDivideByZeroException_mCAF9B10F9F3D3EB274ADB50309D020D02FA92B94_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingIOException_mCF9147AF1A1989D9475FD7C0DCAD033353242D8A_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingIndexOutOfRangeException_m042E6DE07520532CABFEEC7108A3A599C5B900DF_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingInvalidCastException_m13AADB9024A44FD51CD30E4E35A4E34BDD01E01B_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingInvalidOperationException_m89826496A0D4FA6B29A58D0687C1865A213D7F94_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingNullReferenceException_m52D68B191D679A9C3732ABE84779A82A8A51E052_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingOutOfMemoryException_mF76835FD46E2C51710F0CF2907395A43C1C867ED_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingOverflowException_m0A9C0FCDD850111AF54E9D9DBE4C2CB603DD685C_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingSystemException_mA6CD628F3963019140E766054703DB0C007A817F_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGStringHelper_CreateString_mFC3B66B714F45FB23BF087A823C7274D7702D7B4_RuntimeMethod_var;
+
+
+
+// 0x00000001 System.Void Firebase.Crashlytics.CrashlyticsInternal::.ctor()
+extern void CrashlyticsInternal__ctor_m4E3DEEB045BA8C4C1519C4C6FA40C3DBFD2D70B4 (void);
+// 0x00000002 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE::.cctor()
+extern void CrashlyticsInternalPINVOKE__cctor_m182DC5C8A37BAC93FFB89CA55B889E40FB528BF5 (void);
+// 0x00000003 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE::.ctor()
+extern void CrashlyticsInternalPINVOKE__ctor_m46FE7CED0F28DC0DC3566F69E4D5B0B5049E2AB4 (void);
+// 0x00000004 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE::StackFrames_Clear(System.Runtime.InteropServices.HandleRef)
+extern void CrashlyticsInternalPINVOKE_StackFrames_Clear_mCF967AC952D3A52018283A846523B678E0E38542 (void);
+// 0x00000005 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE::StackFrames_Add(System.Runtime.InteropServices.HandleRef,System.Runtime.InteropServices.HandleRef)
+extern void CrashlyticsInternalPINVOKE_StackFrames_Add_m77448F2F8A72D1C24802361D30D25C54540C8750 (void);
+// 0x00000006 System.UInt32 Firebase.Crashlytics.CrashlyticsInternalPINVOKE::StackFrames_size(System.Runtime.InteropServices.HandleRef)
+extern void CrashlyticsInternalPINVOKE_StackFrames_size_m12B309CF41CB560D14D6804F2127AD6C71B9411D (void);
+// 0x00000007 System.UInt32 Firebase.Crashlytics.CrashlyticsInternalPINVOKE::StackFrames_capacity(System.Runtime.InteropServices.HandleRef)
+extern void CrashlyticsInternalPINVOKE_StackFrames_capacity_mCC7EAF031AC7D063B76F1557CB31C84ED73620F8 (void);
+// 0x00000008 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE::StackFrames_reserve(System.Runtime.InteropServices.HandleRef,System.UInt32)
+extern void CrashlyticsInternalPINVOKE_StackFrames_reserve_m370CB7F43118F1405CF2D1EFFC250D4EABADF215 (void);
+// 0x00000009 System.IntPtr Firebase.Crashlytics.CrashlyticsInternalPINVOKE::new_StackFrames__SWIG_0()
+extern void CrashlyticsInternalPINVOKE_new_StackFrames__SWIG_0_m9BE32BC86B7BC5DCE1575EB4D8352EA78AE947B9 (void);
+// 0x0000000A System.IntPtr Firebase.Crashlytics.CrashlyticsInternalPINVOKE::new_StackFrames__SWIG_1(System.Runtime.InteropServices.HandleRef)
+extern void CrashlyticsInternalPINVOKE_new_StackFrames__SWIG_1_mF7FD0F1E45D8A5C7BADA473687A43C27D49E8829 (void);
+// 0x0000000B System.IntPtr Firebase.Crashlytics.CrashlyticsInternalPINVOKE::new_StackFrames__SWIG_2(System.Int32)
+extern void CrashlyticsInternalPINVOKE_new_StackFrames__SWIG_2_mCE81602AA7A2F2B8C24CD31F1FA147ADE77B81C7 (void);
+// 0x0000000C System.IntPtr Firebase.Crashlytics.CrashlyticsInternalPINVOKE::StackFrames_getitemcopy(System.Runtime.InteropServices.HandleRef,System.Int32)
+extern void CrashlyticsInternalPINVOKE_StackFrames_getitemcopy_mF033654E7E089AAD827BBEA2B064F8B63C60F423 (void);
+// 0x0000000D System.IntPtr Firebase.Crashlytics.CrashlyticsInternalPINVOKE::StackFrames_getitem(System.Runtime.InteropServices.HandleRef,System.Int32)
+extern void CrashlyticsInternalPINVOKE_StackFrames_getitem_mBEE631160F6CF4135ED1A14DEBF1B3712642BC91 (void);
+// 0x0000000E System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE::StackFrames_setitem(System.Runtime.InteropServices.HandleRef,System.Int32,System.Runtime.InteropServices.HandleRef)
+extern void CrashlyticsInternalPINVOKE_StackFrames_setitem_m3C66AC53A8C8DC6BD32A00EB705311CD05BAC185 (void);
+// 0x0000000F System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE::StackFrames_AddRange(System.Runtime.InteropServices.HandleRef,System.Runtime.InteropServices.HandleRef)
+extern void CrashlyticsInternalPINVOKE_StackFrames_AddRange_mB4AF21FDAD1AD66C6BBA45B18CCB75EB0C926D94 (void);
+// 0x00000010 System.IntPtr Firebase.Crashlytics.CrashlyticsInternalPINVOKE::StackFrames_GetRange(System.Runtime.InteropServices.HandleRef,System.Int32,System.Int32)
+extern void CrashlyticsInternalPINVOKE_StackFrames_GetRange_m167A1BE3A098D7AFDFAE64A933B369895B22733A (void);
+// 0x00000011 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE::StackFrames_Insert(System.Runtime.InteropServices.HandleRef,System.Int32,System.Runtime.InteropServices.HandleRef)
+extern void CrashlyticsInternalPINVOKE_StackFrames_Insert_m76BC98018819948CB4141196E0F0EF43507B3E7E (void);
+// 0x00000012 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE::StackFrames_InsertRange(System.Runtime.InteropServices.HandleRef,System.Int32,System.Runtime.InteropServices.HandleRef)
+extern void CrashlyticsInternalPINVOKE_StackFrames_InsertRange_m085542361C36030E9D2A46879A655FFC3F633630 (void);
+// 0x00000013 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE::StackFrames_RemoveAt(System.Runtime.InteropServices.HandleRef,System.Int32)
+extern void CrashlyticsInternalPINVOKE_StackFrames_RemoveAt_m62520DEF27031158B03726C48EBAA6063CD48725 (void);
+// 0x00000014 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE::StackFrames_RemoveRange(System.Runtime.InteropServices.HandleRef,System.Int32,System.Int32)
+extern void CrashlyticsInternalPINVOKE_StackFrames_RemoveRange_m68BBF6299CB0925DBE1471D4E84757F35C9DCF50 (void);
+// 0x00000015 System.IntPtr Firebase.Crashlytics.CrashlyticsInternalPINVOKE::StackFrames_Repeat(System.Runtime.InteropServices.HandleRef,System.Int32)
+extern void CrashlyticsInternalPINVOKE_StackFrames_Repeat_m761059FD7B22CED3707BE02DB55E731599ECB8C1 (void);
+// 0x00000016 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE::StackFrames_Reverse__SWIG_0(System.Runtime.InteropServices.HandleRef)
+extern void CrashlyticsInternalPINVOKE_StackFrames_Reverse__SWIG_0_mEFBD792BFF6E3F2AEECCB431CBDD30576400CE4B (void);
+// 0x00000017 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE::StackFrames_Reverse__SWIG_1(System.Runtime.InteropServices.HandleRef,System.Int32,System.Int32)
+extern void CrashlyticsInternalPINVOKE_StackFrames_Reverse__SWIG_1_m909A6A4C82CC065CE4F7E413CFAADE04404D3079 (void);
+// 0x00000018 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE::StackFrames_SetRange(System.Runtime.InteropServices.HandleRef,System.Int32,System.Runtime.InteropServices.HandleRef)
+extern void CrashlyticsInternalPINVOKE_StackFrames_SetRange_mCD0804C9955C4E540BA9F327144B05CD4A1817C9 (void);
+// 0x00000019 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE::delete_StackFrames(System.Runtime.InteropServices.HandleRef)
+extern void CrashlyticsInternalPINVOKE_delete_StackFrames_m9BA085AA044B7E89F5217333EF109882D69F14E6 (void);
+// 0x0000001A System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE::FirebaseCrashlyticsFrame_library_set(System.Runtime.InteropServices.HandleRef,System.String)
+extern void CrashlyticsInternalPINVOKE_FirebaseCrashlyticsFrame_library_set_m3D73C651CD3F69D00837C7604AC5F0A3AA7F2C08 (void);
+// 0x0000001B System.String Firebase.Crashlytics.CrashlyticsInternalPINVOKE::FirebaseCrashlyticsFrame_library_get(System.Runtime.InteropServices.HandleRef)
+extern void CrashlyticsInternalPINVOKE_FirebaseCrashlyticsFrame_library_get_mE4F9ACC22B5B51251522EA0F4EB6C8B6EE80F1C6 (void);
+// 0x0000001C System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE::FirebaseCrashlyticsFrame_symbol_set(System.Runtime.InteropServices.HandleRef,System.String)
+extern void CrashlyticsInternalPINVOKE_FirebaseCrashlyticsFrame_symbol_set_mD36BDFE57BE8620AA7E1925CC4454D2859D4D9B2 (void);
+// 0x0000001D System.String Firebase.Crashlytics.CrashlyticsInternalPINVOKE::FirebaseCrashlyticsFrame_symbol_get(System.Runtime.InteropServices.HandleRef)
+extern void CrashlyticsInternalPINVOKE_FirebaseCrashlyticsFrame_symbol_get_m6A67594E3550336F2CD21103A1B01AEC86668748 (void);
+// 0x0000001E System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE::FirebaseCrashlyticsFrame_fileName_set(System.Runtime.InteropServices.HandleRef,System.String)
+extern void CrashlyticsInternalPINVOKE_FirebaseCrashlyticsFrame_fileName_set_mA8222BF3953FAD725B64B3718751FB646CDADE1E (void);
+// 0x0000001F System.String Firebase.Crashlytics.CrashlyticsInternalPINVOKE::FirebaseCrashlyticsFrame_fileName_get(System.Runtime.InteropServices.HandleRef)
+extern void CrashlyticsInternalPINVOKE_FirebaseCrashlyticsFrame_fileName_get_mCEBE3C74F8E67C1BCE231E772C828A3549B4F620 (void);
+// 0x00000020 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE::FirebaseCrashlyticsFrame_lineNumber_set(System.Runtime.InteropServices.HandleRef,System.String)
+extern void CrashlyticsInternalPINVOKE_FirebaseCrashlyticsFrame_lineNumber_set_m23C330076FB101C18028993264FDE088E2D92000 (void);
+// 0x00000021 System.String Firebase.Crashlytics.CrashlyticsInternalPINVOKE::FirebaseCrashlyticsFrame_lineNumber_get(System.Runtime.InteropServices.HandleRef)
+extern void CrashlyticsInternalPINVOKE_FirebaseCrashlyticsFrame_lineNumber_get_m4EF307E6CF1D48B6D448F3A4C0A9C9E6A935ADF2 (void);
+// 0x00000022 System.IntPtr Firebase.Crashlytics.CrashlyticsInternalPINVOKE::new_FirebaseCrashlyticsFrame()
+extern void CrashlyticsInternalPINVOKE_new_FirebaseCrashlyticsFrame_mCEDDA41B0E0C8B547DFC76D95B35DE64C983A124 (void);
+// 0x00000023 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE::delete_FirebaseCrashlyticsFrame(System.Runtime.InteropServices.HandleRef)
+extern void CrashlyticsInternalPINVOKE_delete_FirebaseCrashlyticsFrame_m4D888BAC2AD064CF3FA96193D17321461E300394 (void);
+// 0x00000024 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE::delete_FirebaseCrashlyticsInternal(System.Runtime.InteropServices.HandleRef)
+extern void CrashlyticsInternalPINVOKE_delete_FirebaseCrashlyticsInternal_m11CE256A8DB901B460E4BA5B0AC7004C15DF6931 (void);
+// 0x00000025 System.IntPtr Firebase.Crashlytics.CrashlyticsInternalPINVOKE::FirebaseCrashlyticsInternal_GetInstance__SWIG_0(System.Runtime.InteropServices.HandleRef,System.Int32&)
+extern void CrashlyticsInternalPINVOKE_FirebaseCrashlyticsInternal_GetInstance__SWIG_0_mD897F75F4E7648243CC782FB7034A62BF90FFEE1 (void);
+// 0x00000026 System.IntPtr Firebase.Crashlytics.CrashlyticsInternalPINVOKE::FirebaseCrashlyticsInternal_GetInstance__SWIG_1(System.Runtime.InteropServices.HandleRef)
+extern void CrashlyticsInternalPINVOKE_FirebaseCrashlyticsInternal_GetInstance__SWIG_1_mA2AF23B9B69D62C0945EA97D70A41ACD3C917602 (void);
+// 0x00000027 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE::FirebaseCrashlyticsInternal_Log(System.Runtime.InteropServices.HandleRef,System.String)
+extern void CrashlyticsInternalPINVOKE_FirebaseCrashlyticsInternal_Log_mE2F8399BA8992B2C65CA582F4B6F555E4218BFC3 (void);
+// 0x00000028 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE::FirebaseCrashlyticsInternal_SetCustomKey(System.Runtime.InteropServices.HandleRef,System.String,System.String)
+extern void CrashlyticsInternalPINVOKE_FirebaseCrashlyticsInternal_SetCustomKey_m657779F5ABC068538293FE2CAFA288120F5241ED (void);
+// 0x00000029 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE::FirebaseCrashlyticsInternal_SetUserId(System.Runtime.InteropServices.HandleRef,System.String)
+extern void CrashlyticsInternalPINVOKE_FirebaseCrashlyticsInternal_SetUserId_mF76F5D5462EE925636D68FC86AE62C4C6E4B2260 (void);
+// 0x0000002A System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE::FirebaseCrashlyticsInternal_LogException(System.Runtime.InteropServices.HandleRef,System.String,System.String,System.Runtime.InteropServices.HandleRef)
+extern void CrashlyticsInternalPINVOKE_FirebaseCrashlyticsInternal_LogException_mC7DB2BA6A7B0F0041AAD3DB19975ADAAEE0286A3 (void);
+// 0x0000002B System.Boolean Firebase.Crashlytics.CrashlyticsInternalPINVOKE::FirebaseCrashlyticsInternal_IsCrashlyticsCollectionEnabled(System.Runtime.InteropServices.HandleRef)
+extern void CrashlyticsInternalPINVOKE_FirebaseCrashlyticsInternal_IsCrashlyticsCollectionEnabled_mC37967FD1907A160F31B5F51B8AB80E776B4DC2D (void);
+// 0x0000002C System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE::FirebaseCrashlyticsInternal_SetCrashlyticsCollectionEnabled(System.Runtime.InteropServices.HandleRef,System.Boolean)
+extern void CrashlyticsInternalPINVOKE_FirebaseCrashlyticsInternal_SetCrashlyticsCollectionEnabled_mCE76AE8E47C8E1E51C0B2C81CF46E7485BF4085F (void);
+// 0x0000002D System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper::.cctor()
+extern void SWIGExceptionHelper__cctor_m1A3560F3BB4F0E1AD1AD6DD845089D7D21542DB1 (void);
+// 0x0000002E System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper::.ctor()
+extern void SWIGExceptionHelper__ctor_m30C7A81F5566AAC68A0AD77FF0B2614C116B241F (void);
+// 0x0000002F System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper::SWIGRegisterExceptionCallbacks_CrashlyticsInternal(Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate)
+extern void SWIGExceptionHelper_SWIGRegisterExceptionCallbacks_CrashlyticsInternal_m4F7A83B49BF815B2B02F1FB16C44D6B4EB6289A1 (void);
+// 0x00000030 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper::SWIGRegisterExceptionCallbacksArgument_CrashlyticsInternal(Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper/ExceptionArgumentDelegate,Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper/ExceptionArgumentDelegate,Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper/ExceptionArgumentDelegate)
+extern void SWIGExceptionHelper_SWIGRegisterExceptionCallbacksArgument_CrashlyticsInternal_m9B33DFAC4046DF77372B2A73226433A59C794FF1 (void);
+// 0x00000031 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper::SetPendingApplicationException(System.String)
+extern void SWIGExceptionHelper_SetPendingApplicationException_mEC7313B11978919435D2C5782ACBB53BC61F2B7F (void);
+// 0x00000032 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper::SetPendingArithmeticException(System.String)
+extern void SWIGExceptionHelper_SetPendingArithmeticException_m2D4137BFB04B4459312D923C4DB399A22472BD8B (void);
+// 0x00000033 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper::SetPendingDivideByZeroException(System.String)
+extern void SWIGExceptionHelper_SetPendingDivideByZeroException_mCAF9B10F9F3D3EB274ADB50309D020D02FA92B94 (void);
+// 0x00000034 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper::SetPendingIndexOutOfRangeException(System.String)
+extern void SWIGExceptionHelper_SetPendingIndexOutOfRangeException_m042E6DE07520532CABFEEC7108A3A599C5B900DF (void);
+// 0x00000035 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper::SetPendingInvalidCastException(System.String)
+extern void SWIGExceptionHelper_SetPendingInvalidCastException_m13AADB9024A44FD51CD30E4E35A4E34BDD01E01B (void);
+// 0x00000036 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper::SetPendingInvalidOperationException(System.String)
+extern void SWIGExceptionHelper_SetPendingInvalidOperationException_m89826496A0D4FA6B29A58D0687C1865A213D7F94 (void);
+// 0x00000037 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper::SetPendingIOException(System.String)
+extern void SWIGExceptionHelper_SetPendingIOException_mCF9147AF1A1989D9475FD7C0DCAD033353242D8A (void);
+// 0x00000038 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper::SetPendingNullReferenceException(System.String)
+extern void SWIGExceptionHelper_SetPendingNullReferenceException_m52D68B191D679A9C3732ABE84779A82A8A51E052 (void);
+// 0x00000039 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper::SetPendingOutOfMemoryException(System.String)
+extern void SWIGExceptionHelper_SetPendingOutOfMemoryException_mF76835FD46E2C51710F0CF2907395A43C1C867ED (void);
+// 0x0000003A System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper::SetPendingOverflowException(System.String)
+extern void SWIGExceptionHelper_SetPendingOverflowException_m0A9C0FCDD850111AF54E9D9DBE4C2CB603DD685C (void);
+// 0x0000003B System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper::SetPendingSystemException(System.String)
+extern void SWIGExceptionHelper_SetPendingSystemException_mA6CD628F3963019140E766054703DB0C007A817F (void);
+// 0x0000003C System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper::SetPendingArgumentException(System.String,System.String)
+extern void SWIGExceptionHelper_SetPendingArgumentException_mC7CF1B06BEB5318E551DB4432C3FDB52C3052396 (void);
+// 0x0000003D System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper::SetPendingArgumentNullException(System.String,System.String)
+extern void SWIGExceptionHelper_SetPendingArgumentNullException_m39AB5098F718D463A691C6166E9173B78051604C (void);
+// 0x0000003E System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper::SetPendingArgumentOutOfRangeException(System.String,System.String)
+extern void SWIGExceptionHelper_SetPendingArgumentOutOfRangeException_m587744C56232F49FFBB6309983F794C5732424F3 (void);
+// 0x0000003F System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate::.ctor(System.Object,System.IntPtr)
+extern void ExceptionDelegate__ctor_mF5832B2FAE8FDB0DB8F1F64766E32DED09F9FBB3 (void);
+// 0x00000040 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate::Invoke(System.String)
+extern void ExceptionDelegate_Invoke_mF8281AB5FC9DD471D83181E10C6C32AF855B2DFD (void);
+// 0x00000041 System.IAsyncResult Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate::BeginInvoke(System.String,System.AsyncCallback,System.Object)
+extern void ExceptionDelegate_BeginInvoke_mFA3B0A5C5DABD0BDDB6042058FEA43B72D6ECBE3 (void);
+// 0x00000042 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate::EndInvoke(System.IAsyncResult)
+extern void ExceptionDelegate_EndInvoke_m28FE30ED04EF3C2D00FCB861EC27A04FA184C6CD (void);
+// 0x00000043 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper/ExceptionArgumentDelegate::.ctor(System.Object,System.IntPtr)
+extern void ExceptionArgumentDelegate__ctor_m1F1332EBB67B6A038ADB81A6AB185B2769D763FD (void);
+// 0x00000044 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper/ExceptionArgumentDelegate::Invoke(System.String,System.String)
+extern void ExceptionArgumentDelegate_Invoke_m26B738114F41208A4137C23162538AD9B6EAF6D9 (void);
+// 0x00000045 System.IAsyncResult Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper/ExceptionArgumentDelegate::BeginInvoke(System.String,System.String,System.AsyncCallback,System.Object)
+extern void ExceptionArgumentDelegate_BeginInvoke_mC6455D730A38C0A7A12B39809F000E6F57FB8719 (void);
+// 0x00000046 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGExceptionHelper/ExceptionArgumentDelegate::EndInvoke(System.IAsyncResult)
+extern void ExceptionArgumentDelegate_EndInvoke_m9D5FF29F18BE50A5244400FA22C6757E152CC561 (void);
+// 0x00000047 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGPendingException::.ctor()
+extern void SWIGPendingException__ctor_m849B3852E0E0D185F944A5159E59B05ED9E1D2D3 (void);
+// 0x00000048 System.Boolean Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGPendingException::get_Pending()
+extern void SWIGPendingException_get_Pending_m0B4BFB48B9626CF53D72899C17C4635C2E06098A (void);
+// 0x00000049 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGPendingException::Set(System.Exception)
+extern void SWIGPendingException_Set_m3818CDD7CF5BA3E5BD5AB133508D9F4E3FB10443 (void);
+// 0x0000004A System.Exception Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGPendingException::Retrieve()
+extern void SWIGPendingException_Retrieve_m9491822662223E8ED855976C2C49EF81D0228F20 (void);
+// 0x0000004B System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGPendingException::.cctor()
+extern void SWIGPendingException__cctor_m6B9BC8FA2A40BC68987CFF2DF09ECF5AF546BBFA (void);
+// 0x0000004C System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGStringHelper::.cctor()
+extern void SWIGStringHelper__cctor_mAA9FA06ACD1633AD925959D27F11B41C093321AB (void);
+// 0x0000004D System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGStringHelper::.ctor()
+extern void SWIGStringHelper__ctor_m0894443D07F9A9543EA6636C37F8747555C47DF0 (void);
+// 0x0000004E System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGStringHelper::SWIGRegisterStringCallback_CrashlyticsInternal(Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGStringHelper/SWIGStringDelegate)
+extern void SWIGStringHelper_SWIGRegisterStringCallback_CrashlyticsInternal_m44EC6D65517350957F0476881EED3009BFDE3D72 (void);
+// 0x0000004F System.String Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGStringHelper::CreateString(System.String)
+extern void SWIGStringHelper_CreateString_mFC3B66B714F45FB23BF087A823C7274D7702D7B4 (void);
+// 0x00000050 System.Void Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGStringHelper/SWIGStringDelegate::.ctor(System.Object,System.IntPtr)
+extern void SWIGStringDelegate__ctor_m837520FB0BE82E21BC3540F9677241FF47E61C3D (void);
+// 0x00000051 System.String Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGStringHelper/SWIGStringDelegate::Invoke(System.String)
+extern void SWIGStringDelegate_Invoke_mD9BDE454C6634D68659BCB9F8CA0C4605E368F14 (void);
+// 0x00000052 System.IAsyncResult Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGStringHelper/SWIGStringDelegate::BeginInvoke(System.String,System.AsyncCallback,System.Object)
+extern void SWIGStringDelegate_BeginInvoke_m9D83844EEB78ED3BBCE4CB3E000A46FCFF7C0BC3 (void);
+// 0x00000053 System.String Firebase.Crashlytics.CrashlyticsInternalPINVOKE/SWIGStringHelper/SWIGStringDelegate::EndInvoke(System.IAsyncResult)
+extern void SWIGStringDelegate_EndInvoke_mD09B4D6DC907FAB66908E4238BE4C62C50B2FD7B (void);
+// 0x00000054 System.Void Firebase.Crashlytics.FirebaseCrashlyticsInternal::.ctor(System.IntPtr,System.Boolean)
+extern void FirebaseCrashlyticsInternal__ctor_m44A5874505143E7CAE024900CAB0DBCCBEE6995D (void);
+// 0x00000055 System.Runtime.InteropServices.HandleRef Firebase.Crashlytics.FirebaseCrashlyticsInternal::getCPtr(Firebase.Crashlytics.FirebaseCrashlyticsInternal)
+extern void FirebaseCrashlyticsInternal_getCPtr_mD313737C065D90C43E88E8762A5A3E8A1BC73D6E (void);
+// 0x00000056 System.Void Firebase.Crashlytics.FirebaseCrashlyticsInternal::Finalize()
+extern void FirebaseCrashlyticsInternal_Finalize_m606143BF8739431B2989C2E1A45A8928FEEB8F3C (void);
+// 0x00000057 System.Void Firebase.Crashlytics.FirebaseCrashlyticsInternal::Dispose()
+extern void FirebaseCrashlyticsInternal_Dispose_mB3FF6EE719E8007012243A9D2E3856EBA6A8B767 (void);
+// 0x00000058 System.Boolean Firebase.Crashlytics.FirebaseCrashlyticsInternal::get_IsDisposed()
+extern void FirebaseCrashlyticsInternal_get_IsDisposed_m62F4035B44CE4B198E6C81C5C58A28C41761B3DF (void);
+// 0x00000059 Firebase.Crashlytics.FirebaseCrashlyticsInternal Firebase.Crashlytics.FirebaseCrashlyticsInternal::GetInstance(Firebase.FirebaseApp,Firebase.InitResult&)
+extern void FirebaseCrashlyticsInternal_GetInstance_m7990A714EB59C202DD42B52FD8CB19081D22518B (void);
+// 0x0000005A Firebase.Crashlytics.FirebaseCrashlyticsInternal Firebase.Crashlytics.FirebaseCrashlyticsInternal::GetInstance(Firebase.FirebaseApp)
+extern void FirebaseCrashlyticsInternal_GetInstance_mD9B7C18BA618C475699D7044501D46992DA6C949 (void);
+// 0x0000005B System.Void Firebase.Crashlytics.FirebaseCrashlyticsInternal::Log(System.String)
+extern void FirebaseCrashlyticsInternal_Log_m97A6468B8BBCA977610EEF4AB80786F2A2044F03 (void);
+// 0x0000005C System.Void Firebase.Crashlytics.FirebaseCrashlyticsInternal::SetCustomKey(System.String,System.String)
+extern void FirebaseCrashlyticsInternal_SetCustomKey_mB9BF7F76C5AB4B44BD06285344726F3E31A76B89 (void);
+// 0x0000005D System.Void Firebase.Crashlytics.FirebaseCrashlyticsInternal::SetUserId(System.String)
+extern void FirebaseCrashlyticsInternal_SetUserId_m35AA1C768DEB662B4916CE4BB2D8A5364E7738A3 (void);
+// 0x0000005E System.Void Firebase.Crashlytics.FirebaseCrashlyticsInternal::LogException(System.String,System.String,Firebase.Crashlytics.StackFrames)
+extern void FirebaseCrashlyticsInternal_LogException_m1E6DB92112292F4A691B2DB662E4C330B63F0EDD (void);
+// 0x0000005F System.Boolean Firebase.Crashlytics.FirebaseCrashlyticsInternal::IsCrashlyticsCollectionEnabled()
+extern void FirebaseCrashlyticsInternal_IsCrashlyticsCollectionEnabled_m1AB867ADA9FE6F86DD5EE8712D4F8E24342BB829 (void);
+// 0x00000060 System.Void Firebase.Crashlytics.FirebaseCrashlyticsInternal::SetCrashlyticsCollectionEnabled(System.Boolean)
+extern void FirebaseCrashlyticsInternal_SetCrashlyticsCollectionEnabled_m8FF6727BA1D829B10286E5A211297BBDD39A82CD (void);
+// 0x00000061 System.Void Firebase.Crashlytics.FirebaseCrashlyticsFrame::.ctor(System.IntPtr,System.Boolean)
+extern void FirebaseCrashlyticsFrame__ctor_m2F56603CBD18D90CF5E239A88FA3571007F6E243 (void);
+// 0x00000062 System.Void Firebase.Crashlytics.FirebaseCrashlyticsFrame::.ctor()
+extern void FirebaseCrashlyticsFrame__ctor_m28C7FD981D6AB04BD31BFD2D26F978FBB97EABC6 (void);
+// 0x00000063 System.Runtime.InteropServices.HandleRef Firebase.Crashlytics.FirebaseCrashlyticsFrame::getCPtr(Firebase.Crashlytics.FirebaseCrashlyticsFrame)
+extern void FirebaseCrashlyticsFrame_getCPtr_mD4D7C5CC0494F31F6FDCFAC7FEC196CE02E4395C (void);
+// 0x00000064 System.Void Firebase.Crashlytics.FirebaseCrashlyticsFrame::Finalize()
+extern void FirebaseCrashlyticsFrame_Finalize_m6994EACC397E12781607D197A67163E5FF6DBFBF (void);
+// 0x00000065 System.Void Firebase.Crashlytics.FirebaseCrashlyticsFrame::Dispose()
+extern void FirebaseCrashlyticsFrame_Dispose_mB8985B4311E9F06A38D681C09F26E603147A9BF8 (void);
+// 0x00000066 System.Void Firebase.Crashlytics.FirebaseCrashlyticsFrame::set_library(System.String)
+extern void FirebaseCrashlyticsFrame_set_library_m47115454A45F731EA3ABDB4C8C7540AD17806FB7 (void);
+// 0x00000067 System.String Firebase.Crashlytics.FirebaseCrashlyticsFrame::get_library()
+extern void FirebaseCrashlyticsFrame_get_library_m7DA48D119D29B6A2D1FD0EF5F616FCCDCBA15407 (void);
+// 0x00000068 System.Void Firebase.Crashlytics.FirebaseCrashlyticsFrame::set_symbol(System.String)
+extern void FirebaseCrashlyticsFrame_set_symbol_mA03A483B7A74CE4F0B5A971EE7F932AB4CBD3288 (void);
+// 0x00000069 System.String Firebase.Crashlytics.FirebaseCrashlyticsFrame::get_symbol()
+extern void FirebaseCrashlyticsFrame_get_symbol_mDB2E1C5A9F59AEEA0BF4E4999C278D156C6B5D0B (void);
+// 0x0000006A System.Void Firebase.Crashlytics.FirebaseCrashlyticsFrame::set_fileName(System.String)
+extern void FirebaseCrashlyticsFrame_set_fileName_mEBA7E49CD538486A3974DE154E176A029C732261 (void);
+// 0x0000006B System.String Firebase.Crashlytics.FirebaseCrashlyticsFrame::get_fileName()
+extern void FirebaseCrashlyticsFrame_get_fileName_m9793FE531A7AB0632B81957BABF7BAB3F5F7EFFA (void);
+// 0x0000006C System.Void Firebase.Crashlytics.FirebaseCrashlyticsFrame::set_lineNumber(System.String)
+extern void FirebaseCrashlyticsFrame_set_lineNumber_mA610439DD79774208FC551860F49740ED0A8568B (void);
+// 0x0000006D System.String Firebase.Crashlytics.FirebaseCrashlyticsFrame::get_lineNumber()
+extern void FirebaseCrashlyticsFrame_get_lineNumber_m91538FF75ABF33B15457BEE8C9258EC55567E12D (void);
+// 0x0000006E System.Void Firebase.Crashlytics.StackFrames::.ctor(System.IntPtr,System.Boolean)
+extern void StackFrames__ctor_m83CE7DFF45E715899BC7F3761027F9C6BF702254 (void);
+// 0x0000006F System.Void Firebase.Crashlytics.StackFrames::.ctor(System.Collections.ICollection)
+extern void StackFrames__ctor_mB8AA1E145AB291B7638D026921752344650ABCE1 (void);
+// 0x00000070 System.Void Firebase.Crashlytics.StackFrames::.ctor()
+extern void StackFrames__ctor_m77A574925B594D95F14C14E89AF03DC94937D0C5 (void);
+// 0x00000071 System.Void Firebase.Crashlytics.StackFrames::.ctor(Firebase.Crashlytics.StackFrames)
+extern void StackFrames__ctor_m3A03C6F10DD39AFD65773AF4E92ABAA38966B42D (void);
+// 0x00000072 System.Void Firebase.Crashlytics.StackFrames::.ctor(System.Int32)
+extern void StackFrames__ctor_m76E1375CC4B1DFABD3369CAE0BCA4B487F0C96B0 (void);
+// 0x00000073 System.Runtime.InteropServices.HandleRef Firebase.Crashlytics.StackFrames::getCPtr(Firebase.Crashlytics.StackFrames)
+extern void StackFrames_getCPtr_mADF5E1A79C922851EAA1DE08AD918203D45F5E70 (void);
+// 0x00000074 System.Void Firebase.Crashlytics.StackFrames::Finalize()
+extern void StackFrames_Finalize_m1D54F9FE96EB99D15192C4CA47AEE4C6AB5DC33E (void);
+// 0x00000075 System.Void Firebase.Crashlytics.StackFrames::Dispose()
+extern void StackFrames_Dispose_mC3751891411084EA3FF82A220D0AD7BE82F0E391 (void);
+// 0x00000076 System.Boolean Firebase.Crashlytics.StackFrames::get_IsFixedSize()
+extern void StackFrames_get_IsFixedSize_mC342DC34D8565731D3DCC0E5D4621E50932E1D30 (void);
+// 0x00000077 System.Boolean Firebase.Crashlytics.StackFrames::get_IsReadOnly()
+extern void StackFrames_get_IsReadOnly_mEE15F35C095867409312591BE60E0D527DF330A5 (void);
+// 0x00000078 Firebase.Crashlytics.FirebaseCrashlyticsFrame Firebase.Crashlytics.StackFrames::get_Item(System.Int32)
+extern void StackFrames_get_Item_m53B20297E1C0D314C59815C24A767F13A2F8B482 (void);
+// 0x00000079 System.Void Firebase.Crashlytics.StackFrames::set_Item(System.Int32,Firebase.Crashlytics.FirebaseCrashlyticsFrame)
+extern void StackFrames_set_Item_mA4E55F3374C30E68B099C72F40AD59B672B7B3B8 (void);
+// 0x0000007A System.Int32 Firebase.Crashlytics.StackFrames::get_Capacity()
+extern void StackFrames_get_Capacity_m0E0CDEED1D9D2D6CC56B66E6788C011294129598 (void);
+// 0x0000007B System.Void Firebase.Crashlytics.StackFrames::set_Capacity(System.Int32)
+extern void StackFrames_set_Capacity_m1DC287AE5E11EFAB5D3F8936FF5E6859DCD2F478 (void);
+// 0x0000007C System.Int32 Firebase.Crashlytics.StackFrames::get_Count()
+extern void StackFrames_get_Count_mD0170803975E295521178AEA577AFC62A62AAAF9 (void);
+// 0x0000007D System.Boolean Firebase.Crashlytics.StackFrames::get_IsSynchronized()
+extern void StackFrames_get_IsSynchronized_m071196214863D060BA9898782FCF769424698AA4 (void);
+// 0x0000007E System.Void Firebase.Crashlytics.StackFrames::CopyTo(Firebase.Crashlytics.FirebaseCrashlyticsFrame[])
+extern void StackFrames_CopyTo_m537876C2067AB894C5EA83E3FDC9EF16F3030FFA (void);
+// 0x0000007F System.Void Firebase.Crashlytics.StackFrames::CopyTo(Firebase.Crashlytics.FirebaseCrashlyticsFrame[],System.Int32)
+extern void StackFrames_CopyTo_m6D2621A4002A7466C53C31083DFD1CC53B7592B5 (void);
+// 0x00000080 System.Void Firebase.Crashlytics.StackFrames::CopyTo(System.Int32,Firebase.Crashlytics.FirebaseCrashlyticsFrame[],System.Int32,System.Int32)
+extern void StackFrames_CopyTo_mBDB1FACCB38A0223923D52E0AE3E8AE3DD55FAC6 (void);
+// 0x00000081 System.Collections.Generic.IEnumerator`1<Firebase.Crashlytics.FirebaseCrashlyticsFrame> Firebase.Crashlytics.StackFrames::System.Collections.Generic.IEnumerable<Firebase.Crashlytics.FirebaseCrashlyticsFrame>.GetEnumerator()
+extern void StackFrames_System_Collections_Generic_IEnumerableU3CFirebase_Crashlytics_FirebaseCrashlyticsFrameU3E_GetEnumerator_m29FF608D452AF86256A18E6CE49FA495EFCAB863 (void);
+// 0x00000082 System.Collections.IEnumerator Firebase.Crashlytics.StackFrames::System.Collections.IEnumerable.GetEnumerator()
+extern void StackFrames_System_Collections_IEnumerable_GetEnumerator_m61290B1F7B91E0996B734AE5EBA29678B567FDD6 (void);
+// 0x00000083 Firebase.Crashlytics.StackFrames/StackFramesEnumerator Firebase.Crashlytics.StackFrames::GetEnumerator()
+extern void StackFrames_GetEnumerator_m50993C741837E7B6AA294311BA5707248C540D32 (void);
+// 0x00000084 System.Void Firebase.Crashlytics.StackFrames::Clear()
+extern void StackFrames_Clear_m0B6291038F13A6635A752D62D39EDAFB970355D5 (void);
+// 0x00000085 System.Void Firebase.Crashlytics.StackFrames::Add(Firebase.Crashlytics.FirebaseCrashlyticsFrame)
+extern void StackFrames_Add_m81FC73D85F68848E71FDADFB8D57E95789033A44 (void);
+// 0x00000086 System.UInt32 Firebase.Crashlytics.StackFrames::size()
+extern void StackFrames_size_mE06391531F41CA93D16C814FDC287532CC9BB51F (void);
+// 0x00000087 System.UInt32 Firebase.Crashlytics.StackFrames::capacity()
+extern void StackFrames_capacity_mEB991D221451A396DF8B8BB04FFB0CD6354035C3 (void);
+// 0x00000088 System.Void Firebase.Crashlytics.StackFrames::reserve(System.UInt32)
+extern void StackFrames_reserve_mCEDEB3882D7311E68C222F28943E417D60097B90 (void);
+// 0x00000089 Firebase.Crashlytics.FirebaseCrashlyticsFrame Firebase.Crashlytics.StackFrames::getitemcopy(System.Int32)
+extern void StackFrames_getitemcopy_m4595352772B6D044C83C8C174762AB1EE13846B2 (void);
+// 0x0000008A Firebase.Crashlytics.FirebaseCrashlyticsFrame Firebase.Crashlytics.StackFrames::getitem(System.Int32)
+extern void StackFrames_getitem_m1623FAF5B411B4C99F929DF1C1E5B38944072168 (void);
+// 0x0000008B System.Void Firebase.Crashlytics.StackFrames::setitem(System.Int32,Firebase.Crashlytics.FirebaseCrashlyticsFrame)
+extern void StackFrames_setitem_mDFAB4339842EB692C9CC455B4FB19BF5F8E5791F (void);
+// 0x0000008C System.Void Firebase.Crashlytics.StackFrames::AddRange(Firebase.Crashlytics.StackFrames)
+extern void StackFrames_AddRange_mBA2A8E7C6F572EBD1DADB3A8EF5D146C70348DC5 (void);
+// 0x0000008D Firebase.Crashlytics.StackFrames Firebase.Crashlytics.StackFrames::GetRange(System.Int32,System.Int32)
+extern void StackFrames_GetRange_mED4F48028BAE969DAB8209EC7B032BDF48AD1386 (void);
+// 0x0000008E System.Void Firebase.Crashlytics.StackFrames::Insert(System.Int32,Firebase.Crashlytics.FirebaseCrashlyticsFrame)
+extern void StackFrames_Insert_m50F39A3168571F3AE1858AD776B2BE257A9D6AF9 (void);
+// 0x0000008F System.Void Firebase.Crashlytics.StackFrames::InsertRange(System.Int32,Firebase.Crashlytics.StackFrames)
+extern void StackFrames_InsertRange_m23FE55370DA318690A09D4996849ED238DE9FD2C (void);
+// 0x00000090 System.Void Firebase.Crashlytics.StackFrames::RemoveAt(System.Int32)
+extern void StackFrames_RemoveAt_mABDA5A8DB4FB4B6F72603A749876DF77E40C37B8 (void);
+// 0x00000091 System.Void Firebase.Crashlytics.StackFrames::RemoveRange(System.Int32,System.Int32)
+extern void StackFrames_RemoveRange_mFFAD5CE24C217D9017CE45D4AD41631911975FAF (void);
+// 0x00000092 Firebase.Crashlytics.StackFrames Firebase.Crashlytics.StackFrames::Repeat(Firebase.Crashlytics.FirebaseCrashlyticsFrame,System.Int32)
+extern void StackFrames_Repeat_m1B7AC3FB956E14176193D7FA6BDD43957ADD957C (void);
+// 0x00000093 System.Void Firebase.Crashlytics.StackFrames::Reverse()
+extern void StackFrames_Reverse_mB6FB661ECDBFBF2A9F48C1862076173DF9F7D1FA (void);
+// 0x00000094 System.Void Firebase.Crashlytics.StackFrames::Reverse(System.Int32,System.Int32)
+extern void StackFrames_Reverse_m039F28C4054502C8EA698B57F42C934344921882 (void);
+// 0x00000095 System.Void Firebase.Crashlytics.StackFrames::SetRange(System.Int32,Firebase.Crashlytics.StackFrames)
+extern void StackFrames_SetRange_mA683BEA625143941A29F468DE62B6322FCAF9F08 (void);
+// 0x00000096 System.Void Firebase.Crashlytics.StackFrames/StackFramesEnumerator::.ctor(Firebase.Crashlytics.StackFrames)
+extern void StackFramesEnumerator__ctor_m531B488CB074646F90DB8001E48CCAE342396852 (void);
+// 0x00000097 Firebase.Crashlytics.FirebaseCrashlyticsFrame Firebase.Crashlytics.StackFrames/StackFramesEnumerator::get_Current()
+extern void StackFramesEnumerator_get_Current_m4F421AB673FBDF4EE19A54257DC96F44D1CD8369 (void);
+// 0x00000098 System.Object Firebase.Crashlytics.StackFrames/StackFramesEnumerator::System.Collections.IEnumerator.get_Current()
+extern void StackFramesEnumerator_System_Collections_IEnumerator_get_Current_mDBBA19D0F4DDA34710C5C31D3FF6624A55F5E538 (void);
+// 0x00000099 System.Boolean Firebase.Crashlytics.StackFrames/StackFramesEnumerator::MoveNext()
+extern void StackFramesEnumerator_MoveNext_m8748724B8F6C83C20C1B511750884A3AAD0CBEB7 (void);
+// 0x0000009A System.Void Firebase.Crashlytics.StackFrames/StackFramesEnumerator::Reset()
+extern void StackFramesEnumerator_Reset_m14D2B460AE2DF3FB92AB7B9DF35B53EA3B42F156 (void);
+// 0x0000009B System.Void Firebase.Crashlytics.StackFrames/StackFramesEnumerator::Dispose()
+extern void StackFramesEnumerator_Dispose_mCBB69505117BDDEDAD5C2C58133EFF5C1FD1FF9D (void);
+// 0x0000009C System.Void Firebase.Crashlytics.StackTraceParser::.ctor()
+extern void StackTraceParser__ctor_m7C157971F86F38C52FBF4B77ACADD386BCF56114 (void);
+// 0x0000009D System.Collections.Generic.Dictionary`2<System.String,System.String>[] Firebase.Crashlytics.StackTraceParser::ParseStackTraceString(System.String)
+extern void StackTraceParser_ParseStackTraceString_m99E2F1C326887342F2A0CDC89253EC7B8397D624 (void);
+// 0x0000009E System.Collections.Generic.Dictionary`2<System.String,System.String> Firebase.Crashlytics.StackTraceParser::ParseFrameString(System.String,System.String)
+extern void StackTraceParser_ParseFrameString_m35A226C12BCF3F3CADD1CEEA8E2BB2154409AF7B (void);
+// 0x0000009F System.Void Firebase.Crashlytics.StackTraceParser::.cctor()
+extern void StackTraceParser__cctor_m7F0EA47BB3B638252C693EC8869B6A70FB210D36 (void);
+// 0x000000A0 System.Void Firebase.Crashlytics.LoggedException::.ctor(System.String,System.String,System.String)
+extern void LoggedException__ctor_m8504E40A9192810353C30EA8F1F40727DE38106D (void);
+// 0x000000A1 Firebase.Crashlytics.LoggedException Firebase.Crashlytics.LoggedException::FromException(System.Exception)
+extern void LoggedException_FromException_m840A2D316231700BD4B1A35714180ECB2923B37A (void);
+// 0x000000A2 System.String Firebase.Crashlytics.LoggedException::get_Name()
+extern void LoggedException_get_Name_m7529282BECD83C0F8EF2A49DDBBD02A6CE4227F9 (void);
+// 0x000000A3 System.Void Firebase.Crashlytics.LoggedException::set_Name(System.String)
+extern void LoggedException_set_Name_m508A3C96563818DE49E21F28706F3802E6319321 (void);
+// 0x000000A4 System.String Firebase.Crashlytics.LoggedException::get_CustomStackTrace()
+extern void LoggedException_get_CustomStackTrace_mD59E219F1A40B4C692E4E087EF1D6439CD4B91B6 (void);
+// 0x000000A5 System.Void Firebase.Crashlytics.LoggedException::set_CustomStackTrace(System.String)
+extern void LoggedException_set_CustomStackTrace_m4BB142BE8A63C81F34EA17AE325F04FFF54FB615 (void);
+// 0x000000A6 System.Collections.Generic.Dictionary`2<System.String,System.String>[] Firebase.Crashlytics.LoggedException::get_ParsedStackTrace()
+extern void LoggedException_get_ParsedStackTrace_m375F44CE18DE90B9A5495362157E52772D050B49 (void);
+// 0x000000A7 System.Void Firebase.Crashlytics.LoggedException::set_ParsedStackTrace(System.Collections.Generic.Dictionary`2<System.String,System.String>[])
+extern void LoggedException_set_ParsedStackTrace_m9EB613D27CC7F32B9AE44B988BF2BF48E55C502C (void);
+// 0x000000A8 System.Void Firebase.Crashlytics.MetadataBuilder::.ctor()
+extern void MetadataBuilder__ctor_m2890490CD5FF0FC6D26E9A510F599FA4DF52005C (void);
+// 0x000000A9 System.String Firebase.Crashlytics.MetadataBuilder::GenerateMetadataJSON()
+extern void MetadataBuilder_GenerateMetadataJSON_m07C6061E12A94155286C4A97B19C8377F3CF13CF (void);
+// 0x000000AA System.Void Firebase.Crashlytics.MetadataBuilder::.cctor()
+extern void MetadataBuilder__cctor_mC089DD7B18E16DDFA9E10F3DDEA5DC840F7CDF78 (void);
+// 0x000000AB System.Void Firebase.Crashlytics.Metadata::.ctor()
+extern void Metadata__ctor_m6B36A0DB8C3359A69E6302C6B9D3FE4160D4C97C (void);
+// 0x000000AC System.Void Firebase.Crashlytics.Impl::.ctor()
+extern void Impl__ctor_m9C3E2B55429BA6E145250B0D85693F063B07C57C (void);
+// 0x000000AD Firebase.Crashlytics.Impl Firebase.Crashlytics.Impl::Make()
+extern void Impl_Make_m74302D58D6B7AF07BD008DCA5EBE99A35C313E73 (void);
+// 0x000000AE System.Boolean Firebase.Crashlytics.Impl::IsSDKInitialized()
+extern void Impl_IsSDKInitialized_mD6903DF8FE9F358EAE6A633D5830FF03EB9EBF92 (void);
+// 0x000000AF System.Void Firebase.Crashlytics.Impl::Log(System.String)
+extern void Impl_Log_mB22E0914C45FF46B6E0E93CFF4399CFF04DB6D6B (void);
+// 0x000000B0 System.Void Firebase.Crashlytics.Impl::SetCustomKey(System.String,System.String)
+extern void Impl_SetCustomKey_mE0C99C532CC46930F9EC2B021F73582803B05EDB (void);
+// 0x000000B1 System.Void Firebase.Crashlytics.Impl::SetUserId(System.String)
+extern void Impl_SetUserId_m9A81C785F1C2BEECE3BF2655006F181819AFFFBC (void);
+// 0x000000B2 System.Void Firebase.Crashlytics.Impl::LogException(System.Exception)
+extern void Impl_LogException_m121873E7A6D3B9F3517778F7F698536C53368117 (void);
+// 0x000000B3 System.Boolean Firebase.Crashlytics.Impl::IsCrashlyticsCollectionEnabled()
+extern void Impl_IsCrashlyticsCollectionEnabled_m808FAD8695338474F2F77A24B5CA83715F907ABD (void);
+// 0x000000B4 System.Void Firebase.Crashlytics.Impl::SetCrashlyticsCollectionEnabled(System.Boolean)
+extern void Impl_SetCrashlyticsCollectionEnabled_m0C61867F025016CB1869B5769CAD3C4CAE450D07 (void);
+// 0x000000B5 System.Void Firebase.Crashlytics.Impl::.cctor()
+extern void Impl__cctor_mA78EB81ED50BB50E7CCA2AAE9A80406C6E6151FA (void);
+// 0x000000B6 System.Void Firebase.Crashlytics.ExceptionHandler::.ctor()
+extern void ExceptionHandler__ctor_m91AEAE593CE248ECE3900CFFE6722090B195F042 (void);
+// 0x000000B7 System.Void Firebase.Crashlytics.ExceptionHandler::Register()
+extern void ExceptionHandler_Register_m4E291BE15CDEEB54F3E30B5EE346F23AB2CFE129 (void);
+// 0x000000B8 System.Void Firebase.Crashlytics.ExceptionHandler::HandleException(System.Object,System.UnhandledExceptionEventArgs)
+extern void ExceptionHandler_HandleException_m7A4539958137299CBC7A044FB2BE1DC1057B8823 (void);
+// 0x000000B9 System.Void Firebase.Crashlytics.ExceptionHandler::HandleLog(System.String,System.String,UnityEngine.LogType)
+extern void ExceptionHandler_HandleLog_m6E41C1A009384FD73C5FA87A14CCFE7ED094463F (void);
+// 0x000000BA System.String[] Firebase.Crashlytics.ExceptionHandler::getMessageParts(System.String)
+extern void ExceptionHandler_getMessageParts_m1139889E3A286BB8F40EB1A0DEBD698A6A7CD730 (void);
+// 0x000000BB System.Void Firebase.Crashlytics.ExceptionHandler::LogException(Firebase.Crashlytics.LoggedException)
+extern void ExceptionHandler_LogException_m7AB777E1EA8E4C34EF29F749DD7BF8D125E4CF45 (void);
+// 0x000000BC System.Boolean Firebase.Crashlytics.Crashlytics::get_IsCrashlyticsCollectionEnabled()
+extern void Crashlytics_get_IsCrashlyticsCollectionEnabled_m8193828A8A00DCF300A2B3517838D1C249E94B9D (void);
+// 0x000000BD System.Void Firebase.Crashlytics.Crashlytics::set_IsCrashlyticsCollectionEnabled(System.Boolean)
+extern void Crashlytics_set_IsCrashlyticsCollectionEnabled_m727E637D8D3FD7F60E479C42C30FB97C45B839B7 (void);
+// 0x000000BE System.Void Firebase.Crashlytics.Crashlytics::Initialize()
+extern void Crashlytics_Initialize_mD0B17607778B519ED69DE320811D42655F90B247 (void);
+// 0x000000BF System.Void Firebase.Crashlytics.Crashlytics::Log(System.String)
+extern void Crashlytics_Log_m8FD069A4131A2A59ED712CDADF5CB65719B87774 (void);
+// 0x000000C0 System.Void Firebase.Crashlytics.Crashlytics::SetCustomKey(System.String,System.String)
+extern void Crashlytics_SetCustomKey_m1318E7BEAB8F7353CCC6A0918B1C279612412068 (void);
+// 0x000000C1 System.Void Firebase.Crashlytics.Crashlytics::SetUserId(System.String)
+extern void Crashlytics_SetUserId_m0A942FAC7896A803E5710696E8571A013FE0D000 (void);
+// 0x000000C2 System.Void Firebase.Crashlytics.Crashlytics::LogException(System.Exception)
+extern void Crashlytics_LogException_m7A4114A1B29912AC2C0DE12211A8282EC7EC691E (void);
+// 0x000000C3 System.Void Firebase.Crashlytics.Crashlytics/PlatformAccessor::.cctor()
+extern void PlatformAccessor__cctor_mDE31046115F3B54F58511CDE0306346A0B82AD5D (void);
+// 0x000000C4 Firebase.Crashlytics.ExceptionHandler Firebase.Crashlytics.Crashlytics/PlatformAccessor::get_ExceptionHandler()
+extern void PlatformAccessor_get_ExceptionHandler_mF60E5532C8AA10C938DE40C3053535F145B82E4A (void);
+// 0x000000C5 Firebase.Crashlytics.Impl Firebase.Crashlytics.Crashlytics/PlatformAccessor::get_Impl()
+extern void PlatformAccessor_get_Impl_m2524B978D565414F30332B21A48E83A5624F92C6 (void);
+// 0x000000C6 Firebase.FirebaseApp Firebase.Crashlytics.Crashlytics/PlatformAccessor::get_App()
+extern void PlatformAccessor_get_App_m0B6EE2348C970E1674D7A4F005841371543BB9B6 (void);
+// 0x000000C7 System.Void Firebase.Crashlytics.IOSImpl::.ctor()
+extern void IOSImpl__ctor_m9970422A5E1CF943C4596D36E7A9E193E20D8228 (void);
+// 0x000000C8 System.Void Firebase.Crashlytics.AndroidImpl::.ctor()
+extern void AndroidImpl__ctor_m4E6CBDE90170A15B3E4D511BB2BD3A3658E9EB6C (void);
+// 0x000000C9 System.Void Firebase.Crashlytics.AndroidImpl::Finalize()
+extern void AndroidImpl_Finalize_mEF0DC73D80FFE6F2B443BA6ADF1E2ED8F0DE5618 (void);
+// 0x000000CA System.Void Firebase.Crashlytics.AndroidImpl::Dispose()
+extern void AndroidImpl_Dispose_m398AE9CDD4FD079A484DB0EED71E52D9B088F4A0 (void);
+// 0x000000CB System.Boolean Firebase.Crashlytics.AndroidImpl::IsSDKInitialized()
+extern void AndroidImpl_IsSDKInitialized_mE47F91ED9AA8A0FA8201739F54886E3D5B25FE33 (void);
+// 0x000000CC System.Void Firebase.Crashlytics.AndroidImpl::LogOperationFailedWarningDueToShutdown(System.String)
+extern void AndroidImpl_LogOperationFailedWarningDueToShutdown_m50257560C181EB7EB0F8D05EB393B38D4822A5C8 (void);
+// 0x000000CD T Firebase.Crashlytics.AndroidImpl::CallInternalMethod(System.Func`1<T>,System.String,T)
+// 0x000000CE System.Void Firebase.Crashlytics.AndroidImpl::CallInternalMethod(System.Action,System.String)
+extern void AndroidImpl_CallInternalMethod_m10923AEC2AA2B5470C40A72E274E30402CA59AEE (void);
+// 0x000000CF System.Void Firebase.Crashlytics.AndroidImpl::Log(System.String)
+extern void AndroidImpl_Log_m94AEC63BA195BD47A6B849A7F8AF443C1D3F20CE (void);
+// 0x000000D0 System.Void Firebase.Crashlytics.AndroidImpl::SetCustomKey(System.String,System.String)
+extern void AndroidImpl_SetCustomKey_m973B85AE27FFA5E713B094A8D99BAB9B56EB4566 (void);
+// 0x000000D1 System.Void Firebase.Crashlytics.AndroidImpl::SetUserId(System.String)
+extern void AndroidImpl_SetUserId_mBE26104F9A19941B3889CDF9CA21A12C28F613FD (void);
+// 0x000000D2 System.Void Firebase.Crashlytics.AndroidImpl::LogException(System.Exception)
+extern void AndroidImpl_LogException_m7D8374DE8974404A0022A8A07D7E34B208765FFA (void);
+// 0x000000D3 System.Boolean Firebase.Crashlytics.AndroidImpl::IsCrashlyticsCollectionEnabled()
+extern void AndroidImpl_IsCrashlyticsCollectionEnabled_m6FB464625C75F7592508537D47ACF45B8E42CA3F (void);
+// 0x000000D4 System.Void Firebase.Crashlytics.AndroidImpl::SetCrashlyticsCollectionEnabled(System.Boolean)
+extern void AndroidImpl_SetCrashlyticsCollectionEnabled_mE971A280295D970C22A1EF26FAFFFC75E09D58A6 (void);
+// 0x000000D5 System.Boolean Firebase.Crashlytics.AndroidImpl::<IsCrashlyticsCollectionEnabled>m__0()
+extern void AndroidImpl_U3CIsCrashlyticsCollectionEnabledU3Em__0_m45D89220541026AB97928A9987F184F0240BE555 (void);
+// 0x000000D6 System.Void Firebase.Crashlytics.AndroidImpl/<Log>c__AnonStorey0::.ctor()
+extern void U3CLogU3Ec__AnonStorey0__ctor_m6ED9A6B7E11AC34FB15692A9896364C10729F7A5 (void);
+// 0x000000D7 System.Void Firebase.Crashlytics.AndroidImpl/<Log>c__AnonStorey0::<>m__0()
+extern void U3CLogU3Ec__AnonStorey0_U3CU3Em__0_mA6F65D6E4529F728B3003B412908ADE641436745 (void);
+// 0x000000D8 System.Void Firebase.Crashlytics.AndroidImpl/<SetCustomKey>c__AnonStorey1::.ctor()
+extern void U3CSetCustomKeyU3Ec__AnonStorey1__ctor_mA4EF67D2167D8CE6DAC76DF0AD0F2CB8AC073C9C (void);
+// 0x000000D9 System.Void Firebase.Crashlytics.AndroidImpl/<SetCustomKey>c__AnonStorey1::<>m__0()
+extern void U3CSetCustomKeyU3Ec__AnonStorey1_U3CU3Em__0_mF9DF09EBFE0092D51196C0467D5F1D07143A85C4 (void);
+// 0x000000DA System.Void Firebase.Crashlytics.AndroidImpl/<SetUserId>c__AnonStorey2::.ctor()
+extern void U3CSetUserIdU3Ec__AnonStorey2__ctor_m934BA47D691CA29D69CE755CC7DDE8427140CFE6 (void);
+// 0x000000DB System.Void Firebase.Crashlytics.AndroidImpl/<SetUserId>c__AnonStorey2::<>m__0()
+extern void U3CSetUserIdU3Ec__AnonStorey2_U3CU3Em__0_mEDCBF1AF64A6370B8B3232D2AEE6E6A7C9115B2B (void);
+// 0x000000DC System.Void Firebase.Crashlytics.AndroidImpl/<LogException>c__AnonStorey3::.ctor()
+extern void U3CLogExceptionU3Ec__AnonStorey3__ctor_mCF23AE431E36C99CDEF324AC7D8F450AE94EF5AE (void);
+// 0x000000DD System.Void Firebase.Crashlytics.AndroidImpl/<LogException>c__AnonStorey3::<>m__0()
+extern void U3CLogExceptionU3Ec__AnonStorey3_U3CU3Em__0_m839FAD8A2AD210F1E39167101946F5955BBBE4F0 (void);
+// 0x000000DE System.Void Firebase.Crashlytics.AndroidImpl/<SetCrashlyticsCollectionEnabled>c__AnonStorey4::.ctor()
+extern void U3CSetCrashlyticsCollectionEnabledU3Ec__AnonStorey4__ctor_m8B3BE00EA065301D67B8FD21C93557B73BC3567A (void);
+// 0x000000DF System.Void Firebase.Crashlytics.AndroidImpl/<SetCrashlyticsCollectionEnabled>c__AnonStorey4::<>m__0()
+extern void U3CSetCrashlyticsCollectionEnabledU3Ec__AnonStorey4_U3CU3Em__0_mCACD868D1BB1C3DA338F1BC009BD08D9945CAD55 (void);
+static Il2CppMethodPointer s_methodPointers[223] = 
+{
+	CrashlyticsInternal__ctor_m4E3DEEB045BA8C4C1519C4C6FA40C3DBFD2D70B4,
+	CrashlyticsInternalPINVOKE__cctor_m182DC5C8A37BAC93FFB89CA55B889E40FB528BF5,
+	CrashlyticsInternalPINVOKE__ctor_m46FE7CED0F28DC0DC3566F69E4D5B0B5049E2AB4,
+	CrashlyticsInternalPINVOKE_StackFrames_Clear_mCF967AC952D3A52018283A846523B678E0E38542,
+	CrashlyticsInternalPINVOKE_StackFrames_Add_m77448F2F8A72D1C24802361D30D25C54540C8750,
+	CrashlyticsInternalPINVOKE_StackFrames_size_m12B309CF41CB560D14D6804F2127AD6C71B9411D,
+	CrashlyticsInternalPINVOKE_StackFrames_capacity_mCC7EAF031AC7D063B76F1557CB31C84ED73620F8,
+	CrashlyticsInternalPINVOKE_StackFrames_reserve_m370CB7F43118F1405CF2D1EFFC250D4EABADF215,
+	CrashlyticsInternalPINVOKE_new_StackFrames__SWIG_0_m9BE32BC86B7BC5DCE1575EB4D8352EA78AE947B9,
+	CrashlyticsInternalPINVOKE_new_StackFrames__SWIG_1_mF7FD0F1E45D8A5C7BADA473687A43C27D49E8829,
+	CrashlyticsInternalPINVOKE_new_StackFrames__SWIG_2_mCE81602AA7A2F2B8C24CD31F1FA147ADE77B81C7,
+	CrashlyticsInternalPINVOKE_StackFrames_getitemcopy_mF033654E7E089AAD827BBEA2B064F8B63C60F423,
+	CrashlyticsInternalPINVOKE_StackFrames_getitem_mBEE631160F6CF4135ED1A14DEBF1B3712642BC91,
+	CrashlyticsInternalPINVOKE_StackFrames_setitem_m3C66AC53A8C8DC6BD32A00EB705311CD05BAC185,
+	CrashlyticsInternalPINVOKE_StackFrames_AddRange_mB4AF21FDAD1AD66C6BBA45B18CCB75EB0C926D94,
+	CrashlyticsInternalPINVOKE_StackFrames_GetRange_m167A1BE3A098D7AFDFAE64A933B369895B22733A,
+	CrashlyticsInternalPINVOKE_StackFrames_Insert_m76BC98018819948CB4141196E0F0EF43507B3E7E,
+	CrashlyticsInternalPINVOKE_StackFrames_InsertRange_m085542361C36030E9D2A46879A655FFC3F633630,
+	CrashlyticsInternalPINVOKE_StackFrames_RemoveAt_m62520DEF27031158B03726C48EBAA6063CD48725,
+	CrashlyticsInternalPINVOKE_StackFrames_RemoveRange_m68BBF6299CB0925DBE1471D4E84757F35C9DCF50,
+	CrashlyticsInternalPINVOKE_StackFrames_Repeat_m761059FD7B22CED3707BE02DB55E731599ECB8C1,
+	CrashlyticsInternalPINVOKE_StackFrames_Reverse__SWIG_0_mEFBD792BFF6E3F2AEECCB431CBDD30576400CE4B,
+	CrashlyticsInternalPINVOKE_StackFrames_Reverse__SWIG_1_m909A6A4C82CC065CE4F7E413CFAADE04404D3079,
+	CrashlyticsInternalPINVOKE_StackFrames_SetRange_mCD0804C9955C4E540BA9F327144B05CD4A1817C9,
+	CrashlyticsInternalPINVOKE_delete_StackFrames_m9BA085AA044B7E89F5217333EF109882D69F14E6,
+	CrashlyticsInternalPINVOKE_FirebaseCrashlyticsFrame_library_set_m3D73C651CD3F69D00837C7604AC5F0A3AA7F2C08,
+	CrashlyticsInternalPINVOKE_FirebaseCrashlyticsFrame_library_get_mE4F9ACC22B5B51251522EA0F4EB6C8B6EE80F1C6,
+	CrashlyticsInternalPINVOKE_FirebaseCrashlyticsFrame_symbol_set_mD36BDFE57BE8620AA7E1925CC4454D2859D4D9B2,
+	CrashlyticsInternalPINVOKE_FirebaseCrashlyticsFrame_symbol_get_m6A67594E3550336F2CD21103A1B01AEC86668748,
+	CrashlyticsInternalPINVOKE_FirebaseCrashlyticsFrame_fileName_set_mA8222BF3953FAD725B64B3718751FB646CDADE1E,
+	CrashlyticsInternalPINVOKE_FirebaseCrashlyticsFrame_fileName_get_mCEBE3C74F8E67C1BCE231E772C828A3549B4F620,
+	CrashlyticsInternalPINVOKE_FirebaseCrashlyticsFrame_lineNumber_set_m23C330076FB101C18028993264FDE088E2D92000,
+	CrashlyticsInternalPINVOKE_FirebaseCrashlyticsFrame_lineNumber_get_m4EF307E6CF1D48B6D448F3A4C0A9C9E6A935ADF2,
+	CrashlyticsInternalPINVOKE_new_FirebaseCrashlyticsFrame_mCEDDA41B0E0C8B547DFC76D95B35DE64C983A124,
+	CrashlyticsInternalPINVOKE_delete_FirebaseCrashlyticsFrame_m4D888BAC2AD064CF3FA96193D17321461E300394,
+	CrashlyticsInternalPINVOKE_delete_FirebaseCrashlyticsInternal_m11CE256A8DB901B460E4BA5B0AC7004C15DF6931,
+	CrashlyticsInternalPINVOKE_FirebaseCrashlyticsInternal_GetInstance__SWIG_0_mD897F75F4E7648243CC782FB7034A62BF90FFEE1,
+	CrashlyticsInternalPINVOKE_FirebaseCrashlyticsInternal_GetInstance__SWIG_1_mA2AF23B9B69D62C0945EA97D70A41ACD3C917602,
+	CrashlyticsInternalPINVOKE_FirebaseCrashlyticsInternal_Log_mE2F8399BA8992B2C65CA582F4B6F555E4218BFC3,
+	CrashlyticsInternalPINVOKE_FirebaseCrashlyticsInternal_SetCustomKey_m657779F5ABC068538293FE2CAFA288120F5241ED,
+	CrashlyticsInternalPINVOKE_FirebaseCrashlyticsInternal_SetUserId_mF76F5D5462EE925636D68FC86AE62C4C6E4B2260,
+	CrashlyticsInternalPINVOKE_FirebaseCrashlyticsInternal_LogException_mC7DB2BA6A7B0F0041AAD3DB19975ADAAEE0286A3,
+	CrashlyticsInternalPINVOKE_FirebaseCrashlyticsInternal_IsCrashlyticsCollectionEnabled_mC37967FD1907A160F31B5F51B8AB80E776B4DC2D,
+	CrashlyticsInternalPINVOKE_FirebaseCrashlyticsInternal_SetCrashlyticsCollectionEnabled_mCE76AE8E47C8E1E51C0B2C81CF46E7485BF4085F,
+	SWIGExceptionHelper__cctor_m1A3560F3BB4F0E1AD1AD6DD845089D7D21542DB1,
+	SWIGExceptionHelper__ctor_m30C7A81F5566AAC68A0AD77FF0B2614C116B241F,
+	SWIGExceptionHelper_SWIGRegisterExceptionCallbacks_CrashlyticsInternal_m4F7A83B49BF815B2B02F1FB16C44D6B4EB6289A1,
+	SWIGExceptionHelper_SWIGRegisterExceptionCallbacksArgument_CrashlyticsInternal_m9B33DFAC4046DF77372B2A73226433A59C794FF1,
+	SWIGExceptionHelper_SetPendingApplicationException_mEC7313B11978919435D2C5782ACBB53BC61F2B7F,
+	SWIGExceptionHelper_SetPendingArithmeticException_m2D4137BFB04B4459312D923C4DB399A22472BD8B,
+	SWIGExceptionHelper_SetPendingDivideByZeroException_mCAF9B10F9F3D3EB274ADB50309D020D02FA92B94,
+	SWIGExceptionHelper_SetPendingIndexOutOfRangeException_m042E6DE07520532CABFEEC7108A3A599C5B900DF,
+	SWIGExceptionHelper_SetPendingInvalidCastException_m13AADB9024A44FD51CD30E4E35A4E34BDD01E01B,
+	SWIGExceptionHelper_SetPendingInvalidOperationException_m89826496A0D4FA6B29A58D0687C1865A213D7F94,
+	SWIGExceptionHelper_SetPendingIOException_mCF9147AF1A1989D9475FD7C0DCAD033353242D8A,
+	SWIGExceptionHelper_SetPendingNullReferenceException_m52D68B191D679A9C3732ABE84779A82A8A51E052,
+	SWIGExceptionHelper_SetPendingOutOfMemoryException_mF76835FD46E2C51710F0CF2907395A43C1C867ED,
+	SWIGExceptionHelper_SetPendingOverflowException_m0A9C0FCDD850111AF54E9D9DBE4C2CB603DD685C,
+	SWIGExceptionHelper_SetPendingSystemException_mA6CD628F3963019140E766054703DB0C007A817F,
+	SWIGExceptionHelper_SetPendingArgumentException_mC7CF1B06BEB5318E551DB4432C3FDB52C3052396,
+	SWIGExceptionHelper_SetPendingArgumentNullException_m39AB5098F718D463A691C6166E9173B78051604C,
+	SWIGExceptionHelper_SetPendingArgumentOutOfRangeException_m587744C56232F49FFBB6309983F794C5732424F3,
+	ExceptionDelegate__ctor_mF5832B2FAE8FDB0DB8F1F64766E32DED09F9FBB3,
+	ExceptionDelegate_Invoke_mF8281AB5FC9DD471D83181E10C6C32AF855B2DFD,
+	ExceptionDelegate_BeginInvoke_mFA3B0A5C5DABD0BDDB6042058FEA43B72D6ECBE3,
+	ExceptionDelegate_EndInvoke_m28FE30ED04EF3C2D00FCB861EC27A04FA184C6CD,
+	ExceptionArgumentDelegate__ctor_m1F1332EBB67B6A038ADB81A6AB185B2769D763FD,
+	ExceptionArgumentDelegate_Invoke_m26B738114F41208A4137C23162538AD9B6EAF6D9,
+	ExceptionArgumentDelegate_BeginInvoke_mC6455D730A38C0A7A12B39809F000E6F57FB8719,
+	ExceptionArgumentDelegate_EndInvoke_m9D5FF29F18BE50A5244400FA22C6757E152CC561,
+	SWIGPendingException__ctor_m849B3852E0E0D185F944A5159E59B05ED9E1D2D3,
+	SWIGPendingException_get_Pending_m0B4BFB48B9626CF53D72899C17C4635C2E06098A,
+	SWIGPendingException_Set_m3818CDD7CF5BA3E5BD5AB133508D9F4E3FB10443,
+	SWIGPendingException_Retrieve_m9491822662223E8ED855976C2C49EF81D0228F20,
+	SWIGPendingException__cctor_m6B9BC8FA2A40BC68987CFF2DF09ECF5AF546BBFA,
+	SWIGStringHelper__cctor_mAA9FA06ACD1633AD925959D27F11B41C093321AB,
+	SWIGStringHelper__ctor_m0894443D07F9A9543EA6636C37F8747555C47DF0,
+	SWIGStringHelper_SWIGRegisterStringCallback_CrashlyticsInternal_m44EC6D65517350957F0476881EED3009BFDE3D72,
+	SWIGStringHelper_CreateString_mFC3B66B714F45FB23BF087A823C7274D7702D7B4,
+	SWIGStringDelegate__ctor_m837520FB0BE82E21BC3540F9677241FF47E61C3D,
+	SWIGStringDelegate_Invoke_mD9BDE454C6634D68659BCB9F8CA0C4605E368F14,
+	SWIGStringDelegate_BeginInvoke_m9D83844EEB78ED3BBCE4CB3E000A46FCFF7C0BC3,
+	SWIGStringDelegate_EndInvoke_mD09B4D6DC907FAB66908E4238BE4C62C50B2FD7B,
+	FirebaseCrashlyticsInternal__ctor_m44A5874505143E7CAE024900CAB0DBCCBEE6995D,
+	FirebaseCrashlyticsInternal_getCPtr_mD313737C065D90C43E88E8762A5A3E8A1BC73D6E,
+	FirebaseCrashlyticsInternal_Finalize_m606143BF8739431B2989C2E1A45A8928FEEB8F3C,
+	FirebaseCrashlyticsInternal_Dispose_mB3FF6EE719E8007012243A9D2E3856EBA6A8B767,
+	FirebaseCrashlyticsInternal_get_IsDisposed_m62F4035B44CE4B198E6C81C5C58A28C41761B3DF,
+	FirebaseCrashlyticsInternal_GetInstance_m7990A714EB59C202DD42B52FD8CB19081D22518B,
+	FirebaseCrashlyticsInternal_GetInstance_mD9B7C18BA618C475699D7044501D46992DA6C949,
+	FirebaseCrashlyticsInternal_Log_m97A6468B8BBCA977610EEF4AB80786F2A2044F03,
+	FirebaseCrashlyticsInternal_SetCustomKey_mB9BF7F76C5AB4B44BD06285344726F3E31A76B89,
+	FirebaseCrashlyticsInternal_SetUserId_m35AA1C768DEB662B4916CE4BB2D8A5364E7738A3,
+	FirebaseCrashlyticsInternal_LogException_m1E6DB92112292F4A691B2DB662E4C330B63F0EDD,
+	FirebaseCrashlyticsInternal_IsCrashlyticsCollectionEnabled_m1AB867ADA9FE6F86DD5EE8712D4F8E24342BB829,
+	FirebaseCrashlyticsInternal_SetCrashlyticsCollectionEnabled_m8FF6727BA1D829B10286E5A211297BBDD39A82CD,
+	FirebaseCrashlyticsFrame__ctor_m2F56603CBD18D90CF5E239A88FA3571007F6E243,
+	FirebaseCrashlyticsFrame__ctor_m28C7FD981D6AB04BD31BFD2D26F978FBB97EABC6,
+	FirebaseCrashlyticsFrame_getCPtr_mD4D7C5CC0494F31F6FDCFAC7FEC196CE02E4395C,
+	FirebaseCrashlyticsFrame_Finalize_m6994EACC397E12781607D197A67163E5FF6DBFBF,
+	FirebaseCrashlyticsFrame_Dispose_mB8985B4311E9F06A38D681C09F26E603147A9BF8,
+	FirebaseCrashlyticsFrame_set_library_m47115454A45F731EA3ABDB4C8C7540AD17806FB7,
+	FirebaseCrashlyticsFrame_get_library_m7DA48D119D29B6A2D1FD0EF5F616FCCDCBA15407,
+	FirebaseCrashlyticsFrame_set_symbol_mA03A483B7A74CE4F0B5A971EE7F932AB4CBD3288,
+	FirebaseCrashlyticsFrame_get_symbol_mDB2E1C5A9F59AEEA0BF4E4999C278D156C6B5D0B,
+	FirebaseCrashlyticsFrame_set_fileName_mEBA7E49CD538486A3974DE154E176A029C732261,
+	FirebaseCrashlyticsFrame_get_fileName_m9793FE531A7AB0632B81957BABF7BAB3F5F7EFFA,
+	FirebaseCrashlyticsFrame_set_lineNumber_mA610439DD79774208FC551860F49740ED0A8568B,
+	FirebaseCrashlyticsFrame_get_lineNumber_m91538FF75ABF33B15457BEE8C9258EC55567E12D,
+	StackFrames__ctor_m83CE7DFF45E715899BC7F3761027F9C6BF702254,
+	StackFrames__ctor_mB8AA1E145AB291B7638D026921752344650ABCE1,
+	StackFrames__ctor_m77A574925B594D95F14C14E89AF03DC94937D0C5,
+	StackFrames__ctor_m3A03C6F10DD39AFD65773AF4E92ABAA38966B42D,
+	StackFrames__ctor_m76E1375CC4B1DFABD3369CAE0BCA4B487F0C96B0,
+	StackFrames_getCPtr_mADF5E1A79C922851EAA1DE08AD918203D45F5E70,
+	StackFrames_Finalize_m1D54F9FE96EB99D15192C4CA47AEE4C6AB5DC33E,
+	StackFrames_Dispose_mC3751891411084EA3FF82A220D0AD7BE82F0E391,
+	StackFrames_get_IsFixedSize_mC342DC34D8565731D3DCC0E5D4621E50932E1D30,
+	StackFrames_get_IsReadOnly_mEE15F35C095867409312591BE60E0D527DF330A5,
+	StackFrames_get_Item_m53B20297E1C0D314C59815C24A767F13A2F8B482,
+	StackFrames_set_Item_mA4E55F3374C30E68B099C72F40AD59B672B7B3B8,
+	StackFrames_get_Capacity_m0E0CDEED1D9D2D6CC56B66E6788C011294129598,
+	StackFrames_set_Capacity_m1DC287AE5E11EFAB5D3F8936FF5E6859DCD2F478,
+	StackFrames_get_Count_mD0170803975E295521178AEA577AFC62A62AAAF9,
+	StackFrames_get_IsSynchronized_m071196214863D060BA9898782FCF769424698AA4,
+	StackFrames_CopyTo_m537876C2067AB894C5EA83E3FDC9EF16F3030FFA,
+	StackFrames_CopyTo_m6D2621A4002A7466C53C31083DFD1CC53B7592B5,
+	StackFrames_CopyTo_mBDB1FACCB38A0223923D52E0AE3E8AE3DD55FAC6,
+	StackFrames_System_Collections_Generic_IEnumerableU3CFirebase_Crashlytics_FirebaseCrashlyticsFrameU3E_GetEnumerator_m29FF608D452AF86256A18E6CE49FA495EFCAB863,
+	StackFrames_System_Collections_IEnumerable_GetEnumerator_m61290B1F7B91E0996B734AE5EBA29678B567FDD6,
+	StackFrames_GetEnumerator_m50993C741837E7B6AA294311BA5707248C540D32,
+	StackFrames_Clear_m0B6291038F13A6635A752D62D39EDAFB970355D5,
+	StackFrames_Add_m81FC73D85F68848E71FDADFB8D57E95789033A44,
+	StackFrames_size_mE06391531F41CA93D16C814FDC287532CC9BB51F,
+	StackFrames_capacity_mEB991D221451A396DF8B8BB04FFB0CD6354035C3,
+	StackFrames_reserve_mCEDEB3882D7311E68C222F28943E417D60097B90,
+	StackFrames_getitemcopy_m4595352772B6D044C83C8C174762AB1EE13846B2,
+	StackFrames_getitem_m1623FAF5B411B4C99F929DF1C1E5B38944072168,
+	StackFrames_setitem_mDFAB4339842EB692C9CC455B4FB19BF5F8E5791F,
+	StackFrames_AddRange_mBA2A8E7C6F572EBD1DADB3A8EF5D146C70348DC5,
+	StackFrames_GetRange_mED4F48028BAE969DAB8209EC7B032BDF48AD1386,
+	StackFrames_Insert_m50F39A3168571F3AE1858AD776B2BE257A9D6AF9,
+	StackFrames_InsertRange_m23FE55370DA318690A09D4996849ED238DE9FD2C,
+	StackFrames_RemoveAt_mABDA5A8DB4FB4B6F72603A749876DF77E40C37B8,
+	StackFrames_RemoveRange_mFFAD5CE24C217D9017CE45D4AD41631911975FAF,
+	StackFrames_Repeat_m1B7AC3FB956E14176193D7FA6BDD43957ADD957C,
+	StackFrames_Reverse_mB6FB661ECDBFBF2A9F48C1862076173DF9F7D1FA,
+	StackFrames_Reverse_m039F28C4054502C8EA698B57F42C934344921882,
+	StackFrames_SetRange_mA683BEA625143941A29F468DE62B6322FCAF9F08,
+	StackFramesEnumerator__ctor_m531B488CB074646F90DB8001E48CCAE342396852,
+	StackFramesEnumerator_get_Current_m4F421AB673FBDF4EE19A54257DC96F44D1CD8369,
+	StackFramesEnumerator_System_Collections_IEnumerator_get_Current_mDBBA19D0F4DDA34710C5C31D3FF6624A55F5E538,
+	StackFramesEnumerator_MoveNext_m8748724B8F6C83C20C1B511750884A3AAD0CBEB7,
+	StackFramesEnumerator_Reset_m14D2B460AE2DF3FB92AB7B9DF35B53EA3B42F156,
+	StackFramesEnumerator_Dispose_mCBB69505117BDDEDAD5C2C58133EFF5C1FD1FF9D,
+	StackTraceParser__ctor_m7C157971F86F38C52FBF4B77ACADD386BCF56114,
+	StackTraceParser_ParseStackTraceString_m99E2F1C326887342F2A0CDC89253EC7B8397D624,
+	StackTraceParser_ParseFrameString_m35A226C12BCF3F3CADD1CEEA8E2BB2154409AF7B,
+	StackTraceParser__cctor_m7F0EA47BB3B638252C693EC8869B6A70FB210D36,
+	LoggedException__ctor_m8504E40A9192810353C30EA8F1F40727DE38106D,
+	LoggedException_FromException_m840A2D316231700BD4B1A35714180ECB2923B37A,
+	LoggedException_get_Name_m7529282BECD83C0F8EF2A49DDBBD02A6CE4227F9,
+	LoggedException_set_Name_m508A3C96563818DE49E21F28706F3802E6319321,
+	LoggedException_get_CustomStackTrace_mD59E219F1A40B4C692E4E087EF1D6439CD4B91B6,
+	LoggedException_set_CustomStackTrace_m4BB142BE8A63C81F34EA17AE325F04FFF54FB615,
+	LoggedException_get_ParsedStackTrace_m375F44CE18DE90B9A5495362157E52772D050B49,
+	LoggedException_set_ParsedStackTrace_m9EB613D27CC7F32B9AE44B988BF2BF48E55C502C,
+	MetadataBuilder__ctor_m2890490CD5FF0FC6D26E9A510F599FA4DF52005C,
+	MetadataBuilder_GenerateMetadataJSON_m07C6061E12A94155286C4A97B19C8377F3CF13CF,
+	MetadataBuilder__cctor_mC089DD7B18E16DDFA9E10F3DDEA5DC840F7CDF78,
+	Metadata__ctor_m6B36A0DB8C3359A69E6302C6B9D3FE4160D4C97C,
+	Impl__ctor_m9C3E2B55429BA6E145250B0D85693F063B07C57C,
+	Impl_Make_m74302D58D6B7AF07BD008DCA5EBE99A35C313E73,
+	Impl_IsSDKInitialized_mD6903DF8FE9F358EAE6A633D5830FF03EB9EBF92,
+	Impl_Log_mB22E0914C45FF46B6E0E93CFF4399CFF04DB6D6B,
+	Impl_SetCustomKey_mE0C99C532CC46930F9EC2B021F73582803B05EDB,
+	Impl_SetUserId_m9A81C785F1C2BEECE3BF2655006F181819AFFFBC,
+	Impl_LogException_m121873E7A6D3B9F3517778F7F698536C53368117,
+	Impl_IsCrashlyticsCollectionEnabled_m808FAD8695338474F2F77A24B5CA83715F907ABD,
+	Impl_SetCrashlyticsCollectionEnabled_m0C61867F025016CB1869B5769CAD3C4CAE450D07,
+	Impl__cctor_mA78EB81ED50BB50E7CCA2AAE9A80406C6E6151FA,
+	ExceptionHandler__ctor_m91AEAE593CE248ECE3900CFFE6722090B195F042,
+	ExceptionHandler_Register_m4E291BE15CDEEB54F3E30B5EE346F23AB2CFE129,
+	ExceptionHandler_HandleException_m7A4539958137299CBC7A044FB2BE1DC1057B8823,
+	ExceptionHandler_HandleLog_m6E41C1A009384FD73C5FA87A14CCFE7ED094463F,
+	ExceptionHandler_getMessageParts_m1139889E3A286BB8F40EB1A0DEBD698A6A7CD730,
+	ExceptionHandler_LogException_m7AB777E1EA8E4C34EF29F749DD7BF8D125E4CF45,
+	Crashlytics_get_IsCrashlyticsCollectionEnabled_m8193828A8A00DCF300A2B3517838D1C249E94B9D,
+	Crashlytics_set_IsCrashlyticsCollectionEnabled_m727E637D8D3FD7F60E479C42C30FB97C45B839B7,
+	Crashlytics_Initialize_mD0B17607778B519ED69DE320811D42655F90B247,
+	Crashlytics_Log_m8FD069A4131A2A59ED712CDADF5CB65719B87774,
+	Crashlytics_SetCustomKey_m1318E7BEAB8F7353CCC6A0918B1C279612412068,
+	Crashlytics_SetUserId_m0A942FAC7896A803E5710696E8571A013FE0D000,
+	Crashlytics_LogException_m7A4114A1B29912AC2C0DE12211A8282EC7EC691E,
+	PlatformAccessor__cctor_mDE31046115F3B54F58511CDE0306346A0B82AD5D,
+	PlatformAccessor_get_ExceptionHandler_mF60E5532C8AA10C938DE40C3053535F145B82E4A,
+	PlatformAccessor_get_Impl_m2524B978D565414F30332B21A48E83A5624F92C6,
+	PlatformAccessor_get_App_m0B6EE2348C970E1674D7A4F005841371543BB9B6,
+	IOSImpl__ctor_m9970422A5E1CF943C4596D36E7A9E193E20D8228,
+	AndroidImpl__ctor_m4E6CBDE90170A15B3E4D511BB2BD3A3658E9EB6C,
+	AndroidImpl_Finalize_mEF0DC73D80FFE6F2B443BA6ADF1E2ED8F0DE5618,
+	AndroidImpl_Dispose_m398AE9CDD4FD079A484DB0EED71E52D9B088F4A0,
+	AndroidImpl_IsSDKInitialized_mE47F91ED9AA8A0FA8201739F54886E3D5B25FE33,
+	AndroidImpl_LogOperationFailedWarningDueToShutdown_m50257560C181EB7EB0F8D05EB393B38D4822A5C8,
+	NULL,
+	AndroidImpl_CallInternalMethod_m10923AEC2AA2B5470C40A72E274E30402CA59AEE,
+	AndroidImpl_Log_m94AEC63BA195BD47A6B849A7F8AF443C1D3F20CE,
+	AndroidImpl_SetCustomKey_m973B85AE27FFA5E713B094A8D99BAB9B56EB4566,
+	AndroidImpl_SetUserId_mBE26104F9A19941B3889CDF9CA21A12C28F613FD,
+	AndroidImpl_LogException_m7D8374DE8974404A0022A8A07D7E34B208765FFA,
+	AndroidImpl_IsCrashlyticsCollectionEnabled_m6FB464625C75F7592508537D47ACF45B8E42CA3F,
+	AndroidImpl_SetCrashlyticsCollectionEnabled_mE971A280295D970C22A1EF26FAFFFC75E09D58A6,
+	AndroidImpl_U3CIsCrashlyticsCollectionEnabledU3Em__0_m45D89220541026AB97928A9987F184F0240BE555,
+	U3CLogU3Ec__AnonStorey0__ctor_m6ED9A6B7E11AC34FB15692A9896364C10729F7A5,
+	U3CLogU3Ec__AnonStorey0_U3CU3Em__0_mA6F65D6E4529F728B3003B412908ADE641436745,
+	U3CSetCustomKeyU3Ec__AnonStorey1__ctor_mA4EF67D2167D8CE6DAC76DF0AD0F2CB8AC073C9C,
+	U3CSetCustomKeyU3Ec__AnonStorey1_U3CU3Em__0_mF9DF09EBFE0092D51196C0467D5F1D07143A85C4,
+	U3CSetUserIdU3Ec__AnonStorey2__ctor_m934BA47D691CA29D69CE755CC7DDE8427140CFE6,
+	U3CSetUserIdU3Ec__AnonStorey2_U3CU3Em__0_mEDCBF1AF64A6370B8B3232D2AEE6E6A7C9115B2B,
+	U3CLogExceptionU3Ec__AnonStorey3__ctor_mCF23AE431E36C99CDEF324AC7D8F450AE94EF5AE,
+	U3CLogExceptionU3Ec__AnonStorey3_U3CU3Em__0_m839FAD8A2AD210F1E39167101946F5955BBBE4F0,
+	U3CSetCrashlyticsCollectionEnabledU3Ec__AnonStorey4__ctor_m8B3BE00EA065301D67B8FD21C93557B73BC3567A,
+	U3CSetCrashlyticsCollectionEnabledU3Ec__AnonStorey4_U3CU3Em__0_mCACD868D1BB1C3DA338F1BC009BD08D9945CAD55,
+};
+static const int32_t s_InvokerIndices[223] = 
+{
+	2958,
+	4748,
+	2958,
+	4670,
+	4307,
+	4499,
+	4499,
+	4308,
+	4716,
+	4530,
+	4531,
+	4064,
+	4064,
+	3889,
+	4307,
+	3701,
+	3889,
+	3889,
+	4308,
+	3890,
+	4064,
+	4670,
+	3890,
+	3889,
+	4670,
+	4310,
+	4562,
+	4310,
+	4562,
+	4310,
+	4562,
+	4310,
+	4562,
+	4716,
+	4670,
+	4670,
+	4063,
+	4530,
+	4310,
+	3891,
+	4310,
+	3588,
+	4614,
+	4311,
+	4748,
+	2958,
+	3031,
+	3935,
+	4675,
+	4675,
+	4675,
+	4675,
+	4675,
+	4675,
+	4675,
+	4675,
+	4675,
+	4675,
+	4675,
+	4352,
+	4352,
+	4352,
+	1349,
+	2394,
+	599,
+	2394,
+	1349,
+	1352,
+	377,
+	2394,
+	2958,
+	4734,
+	4675,
+	4720,
+	4748,
+	4748,
+	2958,
+	4675,
+	4568,
+	1349,
+	1804,
+	599,
+	1804,
+	1329,
+	4482,
+	2958,
+	2958,
+	2913,
+	4092,
+	4568,
+	2394,
+	1352,
+	2394,
+	748,
+	2913,
+	2423,
+	1329,
+	2958,
+	4482,
+	2958,
+	2958,
+	2394,
+	2878,
+	2394,
+	2878,
+	2394,
+	2878,
+	2394,
+	2878,
+	1329,
+	2394,
+	2958,
+	2394,
+	2374,
+	4482,
+	2958,
+	2958,
+	2913,
+	2913,
+	1800,
+	1212,
+	2858,
+	2374,
+	2858,
+	2913,
+	2394,
+	1345,
+	475,
+	2878,
+	2878,
+	2878,
+	2958,
+	2394,
+	2858,
+	2858,
+	2374,
+	1800,
+	1800,
+	1212,
+	2394,
+	922,
+	1212,
+	1212,
+	2374,
+	1195,
+	4094,
+	2958,
+	1195,
+	1212,
+	2394,
+	2878,
+	2878,
+	2913,
+	2958,
+	2958,
+	2958,
+	4568,
+	4100,
+	4748,
+	748,
+	4568,
+	2878,
+	2394,
+	2878,
+	2394,
+	2878,
+	2394,
+	2958,
+	4720,
+	4748,
+	2958,
+	2958,
+	4720,
+	2913,
+	2394,
+	1352,
+	2394,
+	2394,
+	2913,
+	2423,
+	4748,
+	2958,
+	2958,
+	1352,
+	744,
+	1804,
+	2394,
+	4734,
+	4678,
+	4748,
+	4675,
+	4352,
+	4675,
+	4675,
+	4748,
+	4720,
+	4720,
+	4720,
+	2958,
+	2958,
+	2958,
+	2958,
+	2913,
+	2394,
+	-1,
+	1352,
+	2394,
+	1352,
+	2394,
+	2394,
+	2913,
+	2423,
+	2913,
+	2958,
+	2958,
+	2958,
+	2958,
+	2958,
+	2958,
+	2958,
+	2958,
+	2958,
+	2958,
+};
+static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[15] = 
+{
+	{ 0x06000031, 18,  (void**)&SWIGExceptionHelper_SetPendingApplicationException_mEC7313B11978919435D2C5782ACBB53BC61F2B7F_RuntimeMethod_var, 0 },
+	{ 0x06000032, 22,  (void**)&SWIGExceptionHelper_SetPendingArithmeticException_m2D4137BFB04B4459312D923C4DB399A22472BD8B_RuntimeMethod_var, 0 },
+	{ 0x06000033, 23,  (void**)&SWIGExceptionHelper_SetPendingDivideByZeroException_mCAF9B10F9F3D3EB274ADB50309D020D02FA92B94_RuntimeMethod_var, 0 },
+	{ 0x06000034, 25,  (void**)&SWIGExceptionHelper_SetPendingIndexOutOfRangeException_m042E6DE07520532CABFEEC7108A3A599C5B900DF_RuntimeMethod_var, 0 },
+	{ 0x06000035, 26,  (void**)&SWIGExceptionHelper_SetPendingInvalidCastException_m13AADB9024A44FD51CD30E4E35A4E34BDD01E01B_RuntimeMethod_var, 0 },
+	{ 0x06000036, 27,  (void**)&SWIGExceptionHelper_SetPendingInvalidOperationException_m89826496A0D4FA6B29A58D0687C1865A213D7F94_RuntimeMethod_var, 0 },
+	{ 0x06000037, 24,  (void**)&SWIGExceptionHelper_SetPendingIOException_mCF9147AF1A1989D9475FD7C0DCAD033353242D8A_RuntimeMethod_var, 0 },
+	{ 0x06000038, 28,  (void**)&SWIGExceptionHelper_SetPendingNullReferenceException_m52D68B191D679A9C3732ABE84779A82A8A51E052_RuntimeMethod_var, 0 },
+	{ 0x06000039, 29,  (void**)&SWIGExceptionHelper_SetPendingOutOfMemoryException_mF76835FD46E2C51710F0CF2907395A43C1C867ED_RuntimeMethod_var, 0 },
+	{ 0x0600003A, 30,  (void**)&SWIGExceptionHelper_SetPendingOverflowException_m0A9C0FCDD850111AF54E9D9DBE4C2CB603DD685C_RuntimeMethod_var, 0 },
+	{ 0x0600003B, 31,  (void**)&SWIGExceptionHelper_SetPendingSystemException_mA6CD628F3963019140E766054703DB0C007A817F_RuntimeMethod_var, 0 },
+	{ 0x0600003C, 19,  (void**)&SWIGExceptionHelper_SetPendingArgumentException_mC7CF1B06BEB5318E551DB4432C3FDB52C3052396_RuntimeMethod_var, 0 },
+	{ 0x0600003D, 20,  (void**)&SWIGExceptionHelper_SetPendingArgumentNullException_m39AB5098F718D463A691C6166E9173B78051604C_RuntimeMethod_var, 0 },
+	{ 0x0600003E, 21,  (void**)&SWIGExceptionHelper_SetPendingArgumentOutOfRangeException_m587744C56232F49FFBB6309983F794C5732424F3_RuntimeMethod_var, 0 },
+	{ 0x0600004F, 32,  (void**)&SWIGStringHelper_CreateString_mFC3B66B714F45FB23BF087A823C7274D7702D7B4_RuntimeMethod_var, 0 },
+};
+static const Il2CppTokenRangePair s_rgctxIndices[1] = 
+{
+	{ 0x060000CD, { 0, 1 } },
+};
+extern const uint32_t g_rgctx_Func_1_Invoke_m3FF95C854D379BF961ECA489540BC88BC5928923;
+static const Il2CppRGCTXDefinition s_rgctxValues[1] = 
+{
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_Func_1_Invoke_m3FF95C854D379BF961ECA489540BC88BC5928923 },
+};
+extern const CustomAttributesCacheGenerator g_Firebase_Crashlytics_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Firebase_Crashlytics_CodeGenModule;
+const Il2CppCodeGenModule g_Firebase_Crashlytics_CodeGenModule = 
+{
+	"Firebase.Crashlytics.dll",
+	223,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	15,
+	s_reversePInvokeIndices,
+	1,
+	s_rgctxIndices,
+	1,
+	s_rgctxValues,
+	NULL,
+	g_Firebase_Crashlytics_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
