@@ -38,7 +38,6 @@ public class UiManager : MonoBehaviour
     private void Start() {
         level1.text = gameData.level.ToString();
         level2.text = (gameData.level + 1).ToString();
-        AdManager.instance.DisplayBanner();
         currentLevelNumber = gameData.level;
 
         //----------------------------------------------------------
@@ -73,7 +72,6 @@ public class UiManager : MonoBehaviour
     }
     public void Restart()
     {
-        AdManager.instance.ShowInterstitial();
         sld.value = 0;
         gameLoop.Restart();
         startBtn.SetActive(true);
@@ -82,15 +80,12 @@ public class UiManager : MonoBehaviour
     }
     public void gameWin()
     {
-        AdManager.instance.DestroyBanner();
         WinScreen.SetActive(true);
         winscreenText.text = gameData.level.ToString() + " COMPLETED";
         
     }
     public void gameWinButton()
     {
-        AdManager.instance.ShowInterstitial();
-        AdManager.instance.DestroyBanner();
         gameLoop.Next();
     }
     ///----------------------WinScreen Activation---------------------------
@@ -148,7 +143,7 @@ public class UiManager : MonoBehaviour
         }
     }
     public void revive(){
-        AdManager.instance.ShowReward();
+        // AdManager.instance.ShowReward();
         
     }
     public void OnRewardFailed(){

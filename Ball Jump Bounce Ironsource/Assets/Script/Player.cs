@@ -24,7 +24,7 @@ public class Player : MonoBehaviour
         }
         else if(other.transform.CompareTag("Platform"))
         {
-            rb.velocity = Vector3.zero;
+            rb.linearVelocity = Vector3.zero;
             rb.AddForce(Vector3.up * speed,ForceMode.Impulse);
             ignoreCollision = true;
             Invoke(nameof(ResetCollision),0.2f);
